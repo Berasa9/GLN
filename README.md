@@ -42,3 +42,10 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 * (7) Pallet sensor: Sensor qie detecta los pallets
 
 ![Sensores de detección de altura](/img/1.png)
+
+*	(8) At left entry:	 Detecta cuando una caja sale por hacia cinta izquierda
+*	(12) At right entry: Detecta cuando una caja sale hacia la cinta derecha
+*	(16) Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia
+![Sensores del transfer](/img/2.png)
+*	(11) At left exit: Detecta cuando una caja ha salido de la cinta izquierda
+*	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
