@@ -3,6 +3,6 @@
 Master en Manufactura Digital
 
 Desarrollado por:
-Goiatz Ezpeleta
-Nekane Berasategui
-Laura Zambrano
+* Goiatz Ezpeleta
+* Nekane Berasategui
+* Laura Zambrano
