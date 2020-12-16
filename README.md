@@ -17,9 +17,12 @@ Contenido:
 ## 1. Sensorización y control mediante programación en Python
 Se programó la funcionalidad y control del robot en Python en la plataforma https://makecode.microbit.org/#editor y utilizando el módulo de gigglebot.
 
+![Extension Gigglebot](/img/ext_giggle.png)
+
 Nuestro equipo propuso el manejo remoto del robot mediante otra tarjeta microbit, por tanto se incluye el código de dos microbit. Uno referente al controlador (tarjeta en mano) y otro al código del gigglebot.
 
 La letra A indica que se mueva a la derecha, B hacia la izquierda y AB hacia delante.
+![B](/img/der.png)
 
 Se agregó el sensor de proximidad, con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
 También se programó la detección de líneas negras como indicador de finalización de un camino.
@@ -46,6 +49,8 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 *	(8) At left entry:	 Detecta cuando una caja sale por hacia cinta izquierda
 *	(12) At right entry: Detecta cuando una caja sale hacia la cinta derecha
 *	(16) Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia
+
 ![Sensores del transfer](/img/2.png)
+
 *	(11) At left exit: Detecta cuando una caja ha salido de la cinta izquierda
 *	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
