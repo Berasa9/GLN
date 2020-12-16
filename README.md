@@ -27,4 +27,5 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 * (5) High sensor: Sensor que detecta las cajas grandes 
 * (6) Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas
 * (7) Pallet sensor: Sensor qie detecta los pallets
+
 [!Sensores de detección de altura](Clasificación de cajas código/Sengores de altura.png)
