@@ -16,7 +16,7 @@ Contenido:
 
 ## 1. Sensorización y control mediante programación en Python
 
-
+## 2. CAD y prototipado 3D
 
 # Clasificador de cajas por tamaño
 ## Elementos del programa
