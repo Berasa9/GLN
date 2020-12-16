@@ -18,5 +18,5 @@ Contenido:
 
 
 
-#Clasificador de cajas por tamaño
-##Elementos del programa
+# Clasificador de cajas por tamaño
+## Elementos del programa
