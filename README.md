@@ -1,2 +1,2 @@
 # GLN
-##Proyecto Final del curso de Tecnologías Industriales
+## Proyecto Final del curso de Tecnologías Industriales
