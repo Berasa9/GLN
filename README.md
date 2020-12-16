@@ -1,6 +1,6 @@
 # Fabricación de ROBOT de TELEPRESENCIA
 ## Proyecto Final del curso de Tecnologías Industriales
-*Master Universitarioen Digital Manufacturing*
+*Master Universitario en Digital Manufacturing*
 
 Desarrollado por:
 * Goiatz Ezpeleta
@@ -9,8 +9,8 @@ Desarrollado por:
 
 
 Contenido:
-* Sensorización y control mediante programación en Python
-* CAD y prototipado 3D
-* Programación de línea de packaging con Factory IO
-* Visualización de los datos ambientales con Tableu
+1. Sensorización y control mediante programación en Python
+2. CAD y prototipado 3D
+3. Programación de línea de packaging con Factory IO
+4. Visualización de los datos ambientales con Tableu
 
