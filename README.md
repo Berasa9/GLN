@@ -15,3 +15,8 @@ Contenido:
 4. Visualización de los datos ambientales con Tableu
 
 ## 1. Sensorización y control mediante programación en Python
+
+
+
+#Clasificador de cajas por tamaño
+##Elementos del programa
