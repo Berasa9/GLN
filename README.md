@@ -22,6 +22,7 @@ Se programó la funcionalidad y control del robot en Python en la plataforma htt
 Nuestro equipo propuso el manejo remoto del robot mediante otra tarjeta microbit, por tanto se incluye el código de dos microbit. Uno referente al controlador (tarjeta en mano) y otro al código del gigglebot.
 
 La letra A indica que se mueva a la derecha, B hacia la izquierda y AB hacia delante.
+
 ![B](/img/der.PNG)
 
 Se agregó el sensor de proximidad, con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
