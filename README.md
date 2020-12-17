@@ -69,9 +69,9 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 * Grado de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. (cualitativo)
 * Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
 
-A continuación se muestran el "dashboard" que se ha publicado con los datos que se han considerado más relevantes. 
+A continuación se muestra el "dashboard" que se ha publicado con los datos que se han considerado más relevantes. 
 
-![Dashboard publicado en Tableau](/TABLEAU/dashboard.img)
+![Dashboard publicado en Tableau](/TABLEAU/dashboard.twb)
 
 Calificación de la Calidad del aire. Para ello se han relacionado datos cuantitativos y cualitativos para que de manera visual se pueda 
 
