@@ -58,7 +58,7 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 
 ## 4. Visualización de los datos ambientales con Tableu
 
-Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. Los parámetros que se han recopilado durante este periodo son los siguientes:
+Mediante la plataforma Tableau (https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. Los parámetros que se han recopilado durante este periodo son los siguientes:
 
 * Fecha de captura
 * Calidad del Aire (cualitativo)
@@ -72,6 +72,6 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 Las gráficas que se han publicado: 
 
 #### Calificación de la Calidad del aire. 
-Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad
+Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad del aire
 ![](/img/calidad_aire.PNG)
 
