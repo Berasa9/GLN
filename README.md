@@ -55,3 +55,5 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 
 *	(11) At left exit: Detecta cuando una caja ha salido de la cinta izquierda
 *	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
+
+## 4. Visualización de los datos ambientales con Tableu
