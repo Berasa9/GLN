@@ -73,5 +73,5 @@ Las gráficas que se han publicado:
 
 #### Calificación de la Calidad del aire. 
 Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad
-(/img/dashboard.PNG)
+![](/img/dashboard.PNG)
 
