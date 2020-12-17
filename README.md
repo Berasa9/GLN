@@ -3,8 +3,8 @@
 *Master Universitario en Digital Manufacturing*
 
 Desarrollado por:
-* Goiatz Ezpeleta
 * Nekane Berasategui
+* Goiatz Ezpeleta
 * Laura Zambrano
 
 
