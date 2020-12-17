@@ -30,6 +30,7 @@ También se programó la detección de líneas negras como indicador de finaliza
 
 
 ## 2. CAD y prototipado 3D
+## 3.
 
 # Clasificador de cajas por tamaño
 ## Elementos del programa
