@@ -71,7 +71,7 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 
 A continuación se muestra el "dashboard" que se ha publicado con los datos que se han considerado más relevantes. 
 
-![Dashboard publicado en Tableau](/img/dashboard.png)
+![Dashboard publicado en Tableau](/img/dashboard.PNG)
 
 Calificación de la Calidad del aire. Para ello se han relacionado datos cuantitativos y cualitativos para que de manera visual se pueda 
 
