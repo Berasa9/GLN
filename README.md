@@ -23,6 +23,7 @@ Nuestro equipo propuso el manejo remoto del robot mediante otra tarjeta microbit
 
 La letra A indica que se mueva a la derecha, B hacia la izquierda y AB hacia delante. Adicionalmente se incluyen luces, flechas y caritas en las distintas funcionalidades del robot.
 
+![A](/img/izq.PNG)
 ![B](/img/der.PNG)
 
 Se agregó el sensor de proximidad, con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
