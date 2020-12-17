@@ -60,4 +60,11 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 
 Mediante la plataforma Tableau se han visualizado datos de clima recogidos en Elgoibar durante los años 2016 y 2017. Los parámetros que se han recopilado durante este periodo de tiempo son los siguientes:
 
-*
+* Fecha de captura
+* Calidad del Aire (cualitativo)
+* Índice de Calidad del Aire (cuantitativo)
+* CO2 (ug/m3)
+* Humedad Rh (%)
+* Temperatura (ºC)
+* Grado de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. (cualitativo)
+* Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
