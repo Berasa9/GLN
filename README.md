@@ -57,3 +57,7 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 *	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
 
 ## 4. Visualización de los datos ambientales con Tableu
+
+Mediante la plataforma Tableau se han visualizado datos de clima recogidos en Elgoibar durante los años 2016 y 2017. Los parámetros que se han recopilado durante este periodo de tiempo son los siguientes:
+
+*
