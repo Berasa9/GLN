@@ -60,6 +60,7 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. 
 
 [![IMAGEN TABLEAU](/img/tableau.PNG)](https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
+
 Los parámetros que se han recopilado durante este periodo son los siguientes:
 
 * Fecha de captura
@@ -70,8 +71,6 @@ Los parámetros que se han recopilado durante este periodo son los siguientes:
 * Temperatura (ºC)
 * Grado de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. (cualitativo)
 * Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
-
-[![IMAGEN TABLEAU](/img/tableau.PNG)](https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
 
 Las gráficas que se han publicado: 
 
