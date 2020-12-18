@@ -61,7 +61,7 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 
 [![IMAGEN TABLEAU](/img/tableau.PNG)](https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
 
-Los parámetros que se han recopilado durante este periodo son los siguientes:
+Los parámetros que se han medido durante este periodo son los siguientes:
 
 * Fecha de captura
 * Calidad del Aire (cualitativo)
@@ -72,8 +72,7 @@ Los parámetros que se han recopilado durante este periodo son los siguientes:
 * Grado de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. (cualitativo)
 * Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
 
-Las gráficas que se han publicado: 
-
+Análisis de las gráficas publicadas: 
 ### CALIDAD DEL AIRE
 La calidad del aire se mide según 4 contaminantes perjudiciales tanto para la salud de las personas como para el mediambiente:
 * Ozono troposférico (O3)
