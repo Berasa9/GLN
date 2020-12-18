@@ -50,9 +50,9 @@ La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delan
 |    AB         | X             | Rojo    |                                                                                  
                                                                                  
 
-![A](/img/A.PNG)
-![AB](/img/AB.PNG)
-![B](/img/B.PNG)
+![A](/img/A.png)
+![AB](/img/AB.png)
+![B](/img/B.png)
 
 ```py
 global x
