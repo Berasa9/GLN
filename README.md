@@ -72,6 +72,7 @@ Los parámetros que se han medido durante este periodo son los siguientes:
 * Grado de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. (cualitativo)
 * Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
 
+
 Análisis de las gráficas publicadas: 
 ### CALIDAD DEL AIRE
 La calidad del aire se mide según 4 contaminantes perjudiciales tanto para la salud de las personas como para el mediambiente:
