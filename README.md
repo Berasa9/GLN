@@ -93,6 +93,6 @@ En la siguiente gráfica se percibe la clara relación entre la carga de partíc
 ![](/img/HOJA_10.PNG)
 
 ### Valores promedio de Temperatura (ºC), Humedad (%Rh) y CO2 (ug/m3)
-A continuación se pueden consultar los diferentes parametros por fecha en los años 2016 y 2017.
+La gráfica que se ve a continuación se ha creado para la consulta de los tres parámetros anteriormente mencionados entre los años los años 2016 y 2017.
 
-![](/img/HOJA_10.PNG)
+![](/img/HOJA_9.PNG)
