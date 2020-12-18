@@ -113,4 +113,13 @@ x = 0 #se declara la variable x
 basic.show_icon(IconNames.YES) #la variable YES, es para verificar
 radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
+def on_button_pressed_a():
+    radio.send_number(1)
+    basic.show_leds("""
+        . . # . .
+        . # . . .
+        # # # # #
+        . # . . .
+        . . # . .
+        """)
 ```
