@@ -22,13 +22,14 @@ Se ha programado la funcionalidad y control del robot en Python en la plataforma
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, por tanto se incluye el código de dos microbit: uno referente al controlador (tarjeta en mano) y otro al código del gigglebot.
 
 La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delante. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot.
+
                                          | Acción        | Dirección     | Color   |
                                          |:-------------:|:-------------:|:-------:|
-| A             | ←             | Azul    |
-| B             | →             | Verde   |
-| Y<-500        | ↑             | Blanco  |
-| Y>+500        | ↓             | Amarillo|
-|    AB         | X             | Rojo    |
+                                         | A             | ←             | Azul    |
+                                         | B             | →             | Verde   |
+                                         | Y<-500        | ↑             | Blanco  |
+                                         | Y>+500        | ↓             | Amarillo|
+                                         |    AB         | X             | Rojo    |
 
 ![A](/img/izq.PNG)
 ![AB](/img/arriba.PNG)
