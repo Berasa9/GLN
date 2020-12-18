@@ -78,4 +78,4 @@ Se han relacionado datos cuantitativos y cualitativos para que de manera visual 
 ![](/img/calidad_aire.PNG)
 
 #### Calidad del aire determinada por la carga de partículas PM2.5
-![](/img/HOJA 10.PNG)
+![](/img/HOJA_10.PNG)
