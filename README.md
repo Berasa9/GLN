@@ -73,9 +73,20 @@ Las gráficas que se han publicado:
 
 ![](/img/tableau.PNG)(https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
 
-#### Calificación de la Calidad del aire. 
+#### CALIDAD DEL AIRE
+La calidad del aire se mide según 5 contaminantes perjudiciales tanto para la salud de las personas y el mediambiente:
+* Ozono troposférico (O3)
+* Dióxido de nitrógeno (NO2)
+* Dióxido de azufre (SO2)
+* Partículas en suspensión (PM 2,5 y PM10)
+
+###### Calificación de la Calidad del aire. 
 Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad del aire
+
 ![](/img/calidad_aire.PNG)
 
-#### Calidad del aire determinada por la carga de partículas PM2.5
+###### Calidad del aire determinada por la carga de partículas PM2.5
+El tamaño de partículas que se encuentran
+En la siguiente gráfica se percibe la clara relación entre la carga de partículas y la calidad del aire. 
+
 ![](/img/HOJA_10.PNG)
