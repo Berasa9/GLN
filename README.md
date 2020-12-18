@@ -123,3 +123,18 @@ def on_button_pressed_a():
         . . # . .
         """)
 ```
+
+```py
+global x
+    x = input.acceleration(Dimension.Y)
+    if x < -500:
+        radio.send_number(2)
+        basic.show_leds("""
+            . . # . .
+            . # # # .
+            # . # . #
+            . . # . .
+            . . # . .
+            """)
+ ```
+       
