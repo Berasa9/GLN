@@ -29,11 +29,11 @@ La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delan
 
 | Acción        | Dirección     | Color   |
 | ------------- |:-------------:| -------:|
-| A             | ←             | Azul    |
-| B             | →             | Verde   |
+|    A          | ←             | Azul    |
+|    B          | →             | Verde   |
 | Y<-500        | ↑             | Blanco  |
 | Y>+500        | ↓             | Amarillo|
-| AB            | X             | Rojo    |
+|    AB         | X             | Rojo    |
 
 
 Se ha agregado el sensor de proximidad con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
