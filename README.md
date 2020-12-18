@@ -75,3 +75,4 @@ Las gráficas que se han publicado:
 Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad del aire
 ![](/img/calidad_aire.PNG)
 
+#### Grado de la calidad del aire según la carga de partículas PM2.5
