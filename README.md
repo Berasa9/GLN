@@ -95,7 +95,7 @@ Se han relacionado datos cuantitativos y cualitativos para que de manera visual 
 
 ![](/img/calidad_aire.PNG)
 
-#### Relación de la calidad del aire y la carga de partículas PM2.5
+⋅⋅⋅#### Relación de la calidad del aire y la carga de partículas PM2.5
 Las partículas que se encuentran en suspensión en el aire se miden según dos tamaños: PM2.5 y PM10. Las PM 2.5 tienen un diámetro igual o menor a 2.5 micras y las PM10 un diámetro igual o inferior a 10 micrómetros. En el análisis llevado a cabo en este proyecto, únicamente se tienen datos de PM2.5
 En la siguiente gráfica se percibe la clara relación entre la carga de partículas y la calidad del aire PM2.5. 
 
