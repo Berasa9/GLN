@@ -75,6 +75,8 @@ También se ha programado la detección de líneas negras como indicador de fina
 ## 3. Programación de línea de packaging con Factory IO
 
 ### Clasificador de cajas por tamaño
+
+
 ### Elementos del programa
 El programa consta de diferentes elementos para su uso. Estos elementos se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
 Los inputs, outputs y las memorias tienen cada uno un nombre y un número de pin.
