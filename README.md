@@ -71,7 +71,7 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 Las gráficas que se han publicado: 
 
 
-![](/img/tableau.PNG)(https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
+[![IMAGEN TABLEAU](/img/tableau.PNG)](https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
 
 ### CALIDAD DEL AIRE
 La calidad del aire se mide según 4 contaminantes perjudiciales tanto para la salud de las personas como para el mediambiente:
