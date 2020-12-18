@@ -28,7 +28,7 @@ La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delan
 ![B](/img/der.PNG)
 
 | Acción        | Dirección     | Color   |
-| ------------- |:-------------:|:-------:|
+|:-------------:|:-------------:|:-------:|
 | A             | ←             | Azul    |
 | B             | →             | Verde   |
 | Y<-500        | ↑             | Blanco  |
