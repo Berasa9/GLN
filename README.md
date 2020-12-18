@@ -23,7 +23,7 @@ Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbi
 
 La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delante. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot.
 
-:| Acción        | Dirección     | Color   |:
+| Acción        | Dirección     | Color   |
 |:-------------:|:-------------:|:-------:|
 | A             | ←             | Azul    |
 | B             | →             | Verde   |                                        
