@@ -57,8 +57,6 @@ Los inputs son los elementos que se muestran en color verde en el esquema. Los s
 *	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
 
 ## 4. Visualización de los datos ambientales con Tableu
-![](/img/tableau.PNG)(https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
-
 Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. Los parámetros que se han recopilado durante este periodo son los siguientes:
 
 * Fecha de captura
@@ -71,6 +69,7 @@ Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas 
 * Número de partículas suspendidas en el aire de diámetro 2.5 micras o inferior. PM 2.5 (cuantitativo)
 
 Las gráficas que se han publicado: 
+![](/img/tableau.PNG)(https://public.tableau.com/views/dashboard_16082122007840/Dashboard1?:showVizHome=no#2)
 
 #### Calificación de la Calidad del aire. 
 Se han relacionado datos cuantitativos y cualitativos para que de manera visual se aprecie el grado de la calidad del aire
