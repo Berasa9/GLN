@@ -21,6 +21,24 @@ Se ha programado la funcionalidad y control del robot en Python en la plataforma
 
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, por tanto se incluye el código de dos microbit: uno referente al controlador (tarjeta en mano) y otro al código del gigglebot.
 
+```py
+#on start
+x = 0 #se declara la variable x
+basic.show_icon(IconNames.YES) #verificación del programa mediante la visualización en led del check (✔)
+radio.set_group(27) #el valor de la frecuencia de radio es 27
+radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
+def on_button_pressed_a():
+    radio.send_number(1)
+    basic.show_leds("""
+        . . # . .
+        . # . . .
+        # # # # #
+        . # . . .
+        . . # . .
+        """)
+```
+
+
 La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delante. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot.
 
 | Acción        | Dirección     | Color   |
@@ -36,6 +54,19 @@ La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delan
 ![AB](/img/arriba.PNG)
 ![B](/img/der.PNG)
 
+```py
+global x
+    x = input.acceleration(Dimension.Y)
+    if x < -500:
+        radio.send_number(2)
+        basic.show_leds("""
+            . . # . .
+            . # # # .
+            # . # . #
+            . . # . .
+            . . # . .
+            """)
+ ```
 Se ha agregado el sensor de proximidad con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
 También se ha programado la detección de líneas negras como indicador de finalización de un camino.
 
@@ -107,34 +138,6 @@ La gráfica que se ve a continuación se ha creado para la consulta de los tres 
 
 ![](/img/HOJA_9.PNG)
 
-```py
-#on start
-x = 0 #se declara la variable x
-basic.show_icon(IconNames.YES) #verificación del programa mediante la visualización en led del check (✔)
-radio.set_group(27) #el valor de la frecuencia de radio es 27
-radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
-def on_button_pressed_a():
-    radio.send_number(1)
-    basic.show_leds("""
-        . . # . .
-        . # . . .
-        # # # # #
-        . # . . .
-        . . # . .
-        """)
-```
 
-```py
-global x
-    x = input.acceleration(Dimension.Y)
-    if x < -500:
-        radio.send_number(2)
-        basic.show_leds("""
-            . . # . .
-            . # # # .
-            # . # . #
-            . . # . .
-            . . # . .
-            """)
- ```
+
        
