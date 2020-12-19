@@ -10,7 +10,7 @@ Desarrollado por:
 
 Contenido:
 1. Sensorización y control mediante programación en Python
-[2. CAD y prototipado 3D] (https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
+[2. CAD y prototipado 3D](https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
 3. Programación de línea de packaging con Factory IO
 4. Visualización de los datos ambientales con Tableu
 
