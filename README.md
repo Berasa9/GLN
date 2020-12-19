@@ -19,7 +19,7 @@ Se ha programado la funcionalidad y control del robot en Python en la plataforma
 
 [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
-Fuente: https://www.iteramos.com/pregunta/34047/-github-readmemd-imagen-central-
+
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit a partir de señales de radiofrecuencia, por tanto se incluye el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia.
 
 ```py
