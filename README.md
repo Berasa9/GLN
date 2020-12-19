@@ -68,9 +68,15 @@ Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como
 | Y>+500        | ↓             | Amarillo|                                         
 |    AB         | X             | Rojo    |                                                                                  
                                                                                  
+El siguiente video muestra el manejo remoto del robot
 
-Se ha agregado el sensor de proximidad con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
-También se ha programado la detección de líneas negras como indicador de finalización de un camino.
+
+
+Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha). Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
+
+
+También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por ell ```controlador```.
+
 
 
 ## 2. CAD y prototipado 3D
