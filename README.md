@@ -17,7 +17,7 @@ Contenido:
 ## 1. Sensorización y control mediante programación en Python
 Se ha programado la funcionalidad y control del robot en Python en la plataforma https://makecode.microbit.org/#editor y utilizando el módulo de gigglebot. Para esta actividad se ha basado en la documentación de Microbit disponible en https://microbit.org/projects/make-it-code-it/
 
-![Extension Gigglebot](/img/ext_giggle.PNG)
+[![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit a partir de señales de radiofrecuencia, por tanto se incluye el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia.
 
@@ -31,7 +31,7 @@ radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de
 ```
 
 
-La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delante. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot.
+La letra A indica movimiento a la derecha, B hacia la izquierda y AB que se detenga. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot, tal como se observa en la siguiente tabla.
 
 | Acción        | Dirección     | Color   |
 |:-------------:|:-------------:|:-------:|
@@ -40,9 +40,7 @@ La letra A indica movimiento a la derecha, B hacia la izquierda y AB hacia delan
 | Y<-500        | ↑             | Blanco  |                                         
 | Y>+500        | ↓             | Amarillo|                                         
 |    AB         | X             | Rojo    |                                                                                  
-                                                                                 
-
-![A](/img/A.png)
+                                                                                 ![A](/img/A.png)
 ![AB](/img/AB.png)
 ![B](/img/B.png)
 
