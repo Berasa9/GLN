@@ -8,7 +8,7 @@ Desarrollado por:
 * Laura Zambrano
 
 
-Contenido:
+###Contenido:
 
 [1. Sensorización y control mediante programación en Python](https://github.com/Berasa9/GLN/blob/main/README.md#1-sensorizaci%C3%B3n-y-control-mediante-programaci%C3%B3n-en-python)
 
@@ -58,10 +58,6 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
     <img src = /img/B.png>
 </p>
 
-![A](/img/A.png)
-![AB](/img/AB.png)
-![B](/img/B.png)
-
 Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
 
 | ID Acción | Acción       | Dirección     | Color led  | Descripción               |
@@ -81,7 +77,7 @@ Se ha agregado el sensor de proximidad en la parte delantera del robot, con su r
 
 
 
-También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por ell ```controlador```.
+También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por el ```controlador```.
 
 
 
