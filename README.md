@@ -75,7 +75,15 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha). Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
 
-
+```py
+#Detección de obstáculos, si hay un objeto cerca de 50 mm
+    if gigglebot.distance_sensor_test_for_obstacle(gigglebotInequality.CLOSER, 50):
+        gigglebot.stop() # se detiene el robot
+        basic.show_icon(IconNames.NO) #mostrar en pantalla "X"
+        lights.smile_show(NeoPixelColors.RED) #mostrar leds rojos
+        basic.pause(1000) # esperar 1 segundo
+        gigglebot.turn_millisec(gigglebotWhichTurnDirection.RIGHT, 1000) # y girar a la derecha
+ ```
 
 También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por el ```controlador```.
 
