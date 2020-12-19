@@ -53,6 +53,12 @@ global x #se utiliza la variable x definida de forma global
 
 Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. 
 
+<p align="center">
+    <img src = /img/A.PNG>
+    <img src = /img/AB.PNG>
+    <img src = /img/B.PNG>
+</p>
+
 ![A](/img/A.png)
 ![AB](/img/AB.png)
 ![B](/img/B.png)
