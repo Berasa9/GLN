@@ -16,7 +16,7 @@ Contenido:
 
 [3. Programación de línea de packaging con Factory IO](https://github.com/Berasa9/GLN/blob/main/README.md#3-programaci%C3%B3n-de-l%C3%ADnea-de-packaging-con-factory-io)
 
-[4. Visualización de los datos ambientales con Tableu]
+[4. Visualización de los datos ambientales con Tableu](https://github.com/Berasa9/GLN#4-visualizaci%C3%B3n-de-los-datos-ambientales-con-tableu)
 
 ## 1. Sensorización y control mediante programación en Python
 Se ha programado la funcionalidad y control del robot en Python en la plataforma [makecode](https://makecode.microbit.org/#editor) y utilizando el módulo de [gigglebot](https://gigglebot.io/). Para esta actividad se ha basado en la documentación de [Microbit](https://microbit.org/projects/make-it-code-it/)
@@ -64,13 +64,13 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
 
 Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
 
-| Acción        | Dirección     | Color led   |
-|:-------------:|:-------------:|:-------:|
-| A             | ←             | Azul    |
-| B             | →             | Verde   |                                        
-| Y<-500        | ↑             | Blanco  |                                         
-| Y>+500        | ↓             | Amarillo|                                         
-|    AB         | X             | Rojo    |                                                                                  
+| Acción       | ID Acción | Dirección     | Color led  |
+|:------------:|:---------:|:-------------:|:----------:|
+| A            | 1         | ←             | Azul       |
+| B            | 3         | →             | Verde      |                                        
+| Y<-500       | 2         | ↑             | Blanco     |                                         
+| Y>+500       | 4         | ↓             | Amarillo   |                                         
+|    AB        | 5         | X             | Rojo       |                                                                                  
                                                                                  
 El siguiente video muestra el manejo remoto con el microbit controlador del robot.
 
