@@ -8,7 +8,7 @@ Desarrollado por:
 * Laura Zambrano
 
 
-###Contenido:
+### Contenido:
 
 [1. Sensorización y control mediante programación en Python](https://github.com/Berasa9/GLN/blob/main/README.md#1-sensorizaci%C3%B3n-y-control-mediante-programaci%C3%B3n-en-python)
 
@@ -60,13 +60,13 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
 
 Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
 
-| ID Acción | Acción       | Dirección     | Color led  | Descripción               |
-| :-------: |:------------:|:-------------:|:----------:|:-------------------------:|
-| 1         | A            | ←             | Azul       | Girar a la izquierda      |
-| 2         | Y<-500       | ↑             | Blanco     | Conducir hacia adelante   |                                       
-| 3         | B            | →             | Verde      | Girar a la derecha        |                                    
-| 4         | Y>+500       | ↓             | Amarillo   | Conducir hacia atras      |                                       
-| 5         |    AB        | X             | Rojo       | Detenerse                 |                                                                     
+| ID Acción | Acción       | Dirección     | Color led        | Descripción               |
+| :-------: |:------------:|:-------------:|:----------------:|:-------------------------:|
+| 1         | A            | ←             | Azul             | Girar a la izquierda      |
+| 2         | Y<-500       | ↑             | Blanco           | Conducir hacia adelante   |                                       
+| 3         | B            | →             | Verde            | Girar a la derecha        |                                    
+| 4         | Y>+500       | ↓             | Amarillo         | Conducir hacia atras      |                                       
+| 5         |    AB        | X             | Rojo             | Detenerse                 |                                                                     
                                                                                  
 Si el robot no recibe ninguna instrucción se detiene a la espera de una acción. 
 El siguiente video muestra el manejo remoto con el microbit controlador del robot.
