@@ -64,14 +64,15 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
 
 Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
 
-| ID Acción | Acción     | ID Acción | Dirección     | Color led  |
-| :-----: |:------------:|:---------:|:-------------:|:----------:|
-| 1       | A            | 1         | ←             | Azul       |
-| 2       | Y<-500       | 3         | ↑             | Blanco     |                                        
-| 3       | B            | 2         | →             | Verde      |                                         
-| 4       | Y>+500       | 4         | ↓             | Amarillo   |                                         
-| 5       |    AB        | 5         | X             | Rojo       |                                                                                  
+| ID Acción | Acción       | Dirección     | Color led  | Descripción               |
+| :-------: |:------------:|:-------------:|:----------:|:-------------------------:|
+| 1         | A            | ←             | Azul       | Girar a la izquierda      |
+| 2         | Y<-500       | ↑             | Blanco     | Conducir hacia adelante   |                                       
+| 3         | B            | →             | Verde      | Girar a la derecha        |                                    
+| 4         | Y>+500       | ↓             | Amarillo   | Conducir hacia atras      |                                       
+| 5         |    AB        | X             | Rojo       | Detenerse                 |                                                                     
                                                                                  
+Si el robot no recibe ninguna instrucción se detiene a la espera de una acción. 
 El siguiente video muestra el manejo remoto con el microbit controlador del robot.
 
 
