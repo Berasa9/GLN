@@ -34,7 +34,7 @@ radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
 
 ```
-A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerómetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500mg``` (500 miligravedades aprox 4.9m/s2).
+A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje "Y". Para ello se utiliza el acelerómetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500mg``` (500 miligravedades aprox 4.9 m/s2).
 
 ```py
 global x #se utiliza la variable x definida de forma global
