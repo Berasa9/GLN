@@ -29,20 +29,7 @@ radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
 
 ```
-
-
-La letra A indica movimiento a la derecha, B hacia la izquierda y AB que se detenga. Adicionalmente se incluyen luces, flechas y caras en las distintas funcionalidades del robot, tal como se observa en la siguiente tabla.
-
-| Acción        | Dirección     | Color   |
-|:-------------:|:-------------:|:-------:|
-| A             | ←             | Azul    |
-| B             | →             | Verde   |                                        
-| Y<-500        | ↑             | Blanco  |                                         
-| Y>+500        | ↓             | Amarillo|                                         
-|    AB         | X             | Rojo    |                                                                                  
-                                                                                 ![A](/img/A.png)
-![AB](/img/AB.png)
-![B](/img/B.png)
+A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerimetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de 500mg
 
 ```py
 global x
@@ -57,6 +44,24 @@ global x
             . . # . .
             """)
  ```
+
+La letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga. 
+
+![A](/img/A.png)
+![AB](/img/AB.png)
+![B](/img/B.png)
+
+Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas funcionalidades, tal como se observa en la siguiente tabla.
+
+| Acción        | Dirección     | Color led   |
+|:-------------:|:-------------:|:-------:|
+| A             | ←             | Azul    |
+| B             | →             | Verde   |                                        
+| Y<-500        | ↑             | Blanco  |                                         
+| Y>+500        | ↓             | Amarillo|                                         
+|    AB         | X             | Rojo    |                                                                                  
+                                                                                 
+
 Se ha agregado el sensor de proximidad con su respectivo código en Arduino para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
 También se ha programado la detección de líneas negras como indicador de finalización de un camino.
 
