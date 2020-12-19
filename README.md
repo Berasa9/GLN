@@ -29,29 +29,29 @@ radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
 
 ```
-A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerimetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de 500mg
+A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerímetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500mg```.
 
 ```py
-global x
-    x = input.acceleration(Dimension.Y)
-    if x < -500:
-        radio.send_number(2)
+global x #se utiliza la variable x definida de forma global
+    x = input.acceleration(Dimension.Y) #X es igual a la entrada del acelerímetro en dirección Y
+    if x < -500: #Si X es menor que -500mg, es el equivalente a un giro manual hacia delante del controlador
+        radio.send_number(2) #se envia al robot el numero 2 por radio frecuencia
         basic.show_leds("""
             . . # . .
             . # # # .
             # . # . #
             . . # . .
             . . # . .
-            """)
+            """) #Se muestra por leds la acción de ir hacia delante en el mando
  ```
 
-La letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga. 
+Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. 
 
 ![A](/img/A.png)
 ![AB](/img/AB.png)
 ![B](/img/B.png)
 
-Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas funcionalidades, tal como se observa en la siguiente tabla.
+Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
 
 | Acción        | Dirección     | Color led   |
 |:-------------:|:-------------:|:-------:|
