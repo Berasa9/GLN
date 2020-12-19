@@ -9,15 +9,17 @@ Desarrollado por:
 
 
 Contenido:
-1. Sensorización y control mediante programación en Python
+
+[1. Sensorización y control mediante programación en Python](https://github.com/Berasa9/GLN/blob/main/README.md#1-sensorizaci%C3%B3n-y-control-mediante-programaci%C3%B3n-en-python)
 
 [2. CAD y prototipado 3D](https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
 
 [3. Programación de línea de packaging con Factory IO](https://github.com/Berasa9/GLN/blob/main/README.md#3-programaci%C3%B3n-de-l%C3%ADnea-de-packaging-con-factory-io)
-4. Visualización de los datos ambientales con Tableu
+
+[4. Visualización de los datos ambientales con Tableu]
 
 ## 1. Sensorización y control mediante programación en Python
-Se ha programado la funcionalidad y control del robot en Python en la plataforma [makecode](https://makecode.microbit.org/#editor) y utilizando el módulo de gigglebot. Para esta actividad se ha basado en la documentación de [Microbit](https://microbit.org/projects/make-it-code-it/)
+Se ha programado la funcionalidad y control del robot en Python en la plataforma [makecode](https://makecode.microbit.org/#editor) y utilizando el módulo de [gigglebot](https://gigglebot.io/). Para esta actividad se ha basado en la documentación de [Microbit](https://microbit.org/projects/make-it-code-it/)
 
 [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
