@@ -17,11 +17,6 @@ Contenido:
 ## 1. Sensorización y control mediante programación en Python
 Se ha programado la funcionalidad y control del robot en Python en la plataforma https://makecode.microbit.org/#editor y utilizando el módulo de gigglebot. Para esta actividad se ha basado en la documentación de Microbit disponible en https://microbit.org/projects/make-it-code-it/
 
-<p align="center">
-    <img src = /img/ext_giggle.PNG>(https://gigglebot.io/)
-</p>
-
-
 [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
 Fuente: https://www.iteramos.com/pregunta/34047/-github-readmemd-imagen-central-
@@ -54,9 +49,9 @@ global x #se utiliza la variable x definida de forma global
 Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. 
 
 <p align="center">
-    <img src = /img/A.PNG>
-    <img src = /img/AB.PNG>
-    <img src = /img/B.PNG>
+    <img src = /img/A.png>
+    <img src = /img/AB.png>
+    <img src = /img/B.png>
 </p>
 
 ![A](/img/A.png)
