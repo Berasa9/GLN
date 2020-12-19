@@ -18,8 +18,11 @@ Contenido:
 Se ha programado la funcionalidad y control del robot en Python en la plataforma https://makecode.microbit.org/#editor y utilizando el módulo de gigglebot. Para esta actividad se ha basado en la documentación de Microbit disponible en https://microbit.org/projects/make-it-code-it/
 
 <p align="center">
-    [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
+    </img/ext_giggle.PNG>(https://gigglebot.io/)
 </p>
+
+
+[![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
 Fuente: https://www.iteramos.com/pregunta/34047/-github-readmemd-imagen-central-
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit a partir de señales de radiofrecuencia, por tanto se incluye el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia.
