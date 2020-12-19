@@ -18,7 +18,7 @@ Contenido:
 Se ha programado la funcionalidad y control del robot en Python en la plataforma https://makecode.microbit.org/#editor y utilizando el módulo de gigglebot. Para esta actividad se ha basado en la documentación de Microbit disponible en https://microbit.org/projects/make-it-code-it/
 
 <p align="center">
-    </img/ext_giggle.PNG>(https://gigglebot.io/)
+    <img src = /img/ext_giggle.PNG>(https://gigglebot.io/)
 </p>
 
 
