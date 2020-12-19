@@ -30,11 +30,11 @@ radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
 
 ```
-A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerímetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500mg```.
+A su vez, el manejo hacia delante y atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje y. Para ello se utiliza el acelerómetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500mg``` (500 miligravedades aprox 4.9m/s2).
 
 ```py
 global x #se utiliza la variable x definida de forma global
-    x = input.acceleration(Dimension.Y) #X es igual a la entrada del acelerímetro en dirección Y
+    x = input.acceleration(Dimension.Y) #X es igual a la entrada del acelerómetro en dirección Y
     if x < -500: #Si X es menor que -500mg, es el equivalente a un giro manual hacia delante del controlador
         radio.send_number(2) #se envia al robot el numero 2 por radio frecuencia
         basic.show_leds("""
@@ -68,11 +68,12 @@ Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como
 | Y>+500        | ↓             | Amarillo|                                         
 |    AB         | X             | Rojo    |                                                                                  
                                                                                  
-El siguiente video muestra el manejo remoto del robot
+El siguiente video muestra el manejo remoto con el microbit controlador del robot.
 
 
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha). Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
+
 
 
 También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por ell ```controlador```.
