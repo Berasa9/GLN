@@ -19,23 +19,15 @@ Se ha programado la funcionalidad y control del robot en Python en la plataforma
 
 ![Extension Gigglebot](/img/ext_giggle.PNG)
 
-Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, por tanto se incluye el código de dos microbit: uno referente al controlador (tarjeta en mano) y otro al código del gigglebot.
+Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit a partir de señales de radiofrecuencia, por tanto se incluye el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia.
 
 ```py
-#on start
-x = 0 #se declara la variable x
+#on start controlador o mando
+x = 0 #se declara la variable x, que hace referencia al acelerometro en la coordinada y del microbit en mano
 basic.show_icon(IconNames.YES) #verificación del programa mediante la visualización en led del check (✔)
 radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
-def on_button_pressed_a():
-    radio.send_number(1)
-    basic.show_leds("""
-        . . # . .
-        . # . . .
-        # # # # #
-        . # . . .
-        . . # . .
-        """)
+
 ```
 
 
