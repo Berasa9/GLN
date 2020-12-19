@@ -68,7 +68,8 @@ Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como
 | 4         | Y>+500       | ↓             | Amarillo         | Conducir hacia atras      |                                       
 | 5         |    AB        | X             | Rojo             | Detenerse                 |                                                                     
                                                                                  
-Si el robot no recibe ninguna instrucción se detiene a la espera de una acción. 
+> Si el robot no recibe ninguna instrucción se detiene a la espera de una acción. 
+
 El siguiente video muestra el manejo remoto con el microbit controlador del robot.
 
 
