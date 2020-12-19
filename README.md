@@ -24,7 +24,7 @@ Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbi
 
 ```py
 #on start controlador o mando
-x = 0 #se declara la variable x, que hace referencia al acelerometro en la coordinada y del microbit en mano
+x = 0 #se declara la variable x, que hace referencia al acelerómetro en la coordinada "Y" del controlador
 basic.show_icon(IconNames.YES) #verificación del programa mediante la visualización en led del check (✔)
 radio.set_group(27) #el valor de la frecuencia de radio es 27
 radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de 7
@@ -35,7 +35,7 @@ A su vez, el manejo hacia delante y atras del robot depende del giro del microbi
 ```py
 global x #se utiliza la variable x definida de forma global
     x = input.acceleration(Dimension.Y) #X es igual a la entrada del acelerómetro en dirección Y
-    if x < -500: #Si X es menor que -500mg, es el equivalente a un giro manual hacia delante del controlador
+    if x < -500: #Si X es menor que -500mg, equivalente a un giro manual hacia delante del controlador
         radio.send_number(2) #se envia al robot el numero 2 por radio frecuencia
         basic.show_leds("""
             . . # . .
