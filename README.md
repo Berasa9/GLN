@@ -13,6 +13,7 @@ Desarrollado por:
 [1. Sensorización y control mediante programación en Python](https://github.com/Berasa9/GLN/blob/main/README.md#1-sensorizaci%C3%B3n-y-control-mediante-programaci%C3%B3n-en-python)
 
 [2. CAD y prototipado 3D](https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
+
 [Metrología con visión artificial](https://github.com/Berasa9/GLN/blob/main/README.md#metrología-con-visión-artificia)
 
 [3. Programación de línea de packaging con Factory IO](https://github.com/Berasa9/GLN/blob/main/README.md#3-programaci%C3%B3n-de-l%C3%ADnea-de-packaging-con-factory-io)
