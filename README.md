@@ -74,7 +74,7 @@ Adicionalmente se muestran luces, flechas y caras tanto en la pantalla del contr
 
 El siguiente video muestra el manejo remoto con el microbit controlador del robot.
 
-
+[![VIDEO ROBOT](img/vid1.PNG)](https://youtu.be/t_J4hAIU1Q8)
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha), pensando en una medida de control de seguridad para el robot. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado, donde se incluye el modelado para dicho sensor.
 
