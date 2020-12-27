@@ -26,10 +26,10 @@ Se ha programado la funcionalidad y control del robot en Python en la plataforma
 [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
 
-Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, a partir de señales de radiofrecuencia. Por tanto se incluye el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia.
+Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, a partir de señales de radiofrecuencia, tal como se observa en el siguiente fragmento de código. Por tanto, se incluye en el apartado de sensorización el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia. 
 
 ```py
-#on start controlador o mando
+#on start del controlador
 x = 0 #se declara la variable x, que hace referencia al acelerómetro en la coordinada "Y" del controlador
 basic.show_icon(IconNames.YES) #verificación del programa mediante la visualización en led del check (✔)
 radio.set_group(27) #el valor de la frecuencia de radio es 27
@@ -52,7 +52,7 @@ global x #se utiliza la variable x definida de forma global
             """) #Se muestra por leds la acción de ir hacia delante en el mando
  ```
 
-Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. 
+Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. Se ha realizado la propuesta de un microbit controlador pensando en que, un manejo de control a distancia seria más conveniente que un robot autónomo para el caso de telepresencia, ya que permite ajustarse a las necesidades de quien lo maneja.
 
 <p align="center">
     <img src = /img/A.png>
@@ -60,7 +60,7 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
     <img src = /img/B.png>
 </p>
 
-Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal y como se observa en la siguiente tabla.
+Adicionalmente se muestran luces, flechas y caras tanto en la pantalla del controlador como en el robot segun las distintas acciones propuestas, tal y como se observa en la siguiente tabla.
 
 | ID Acción | Acción       | Dirección     | Color led        | Descripción               |
 | :-------: |:------------:|:-------------:|:----------------:|:-------------------------:|
@@ -76,7 +76,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 
 
 
-Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha). Esto se complementa con la propuesta de modelado 3D en el siguiente apartado.
+Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha), pensando en una medida de control de seguridad para el robot. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado, donde se incluye el modelado para dicho sensor.
 
 ```py
 #Detección de obstáculos, si hay un objeto cerca de 50 mm
