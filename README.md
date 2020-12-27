@@ -94,7 +94,7 @@ También se ha programado la detección de líneas negras como indicador de fina
 
 ## 2. CAD y prototipado 3D
 
-Se han diseñado dos componentes del robot, concretamente la ```parte trasera``` del robot y la parte delantera o ```"nose"```.
+Se ha modificado el diseño de dos componentes del robot, concretamente la parte trasera o ```"back"``` del robot y la parte delantera o ```"nose"```.
 ### Metrología con visión artificial
 ## 3. Programación de línea de packaging con Factory IO
 
