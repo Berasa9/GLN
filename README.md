@@ -23,10 +23,12 @@ Desarrollado por:
 ## 1. Sensorización y control mediante programación en Python
 Se ha programado la funcionalidad y control del robot en Python en la plataforma [makecode](https://makecode.microbit.org/#editor) y utilizando el módulo de [gigglebot](https://gigglebot.io/). Para esta actividad se ha basado en la documentación de [Microbit](https://microbit.org/projects/make-it-code-it/).
 
+
 [![Extension Gigglebot](/img/ext_giggle.PNG)](https://gigglebot.io/)
 
 
 Nuestro equipo propone el control remoto del robot mediante otra tarjeta microbit, a partir de señales de radiofrecuencia, tal como se observa en el siguiente fragmento de código. Por tanto, se incluye en el apartado de sensorización el código de dos microbit: uno referente al ```controlador``` (tarjeta en mano) y otro al código del gigglebot, es decir el ```robot``` de telepresencia. 
+
 
 ```py
 #on start del controlador
@@ -37,6 +39,7 @@ radio.set_transmit_power(7) # la potencia de radio es la máxima con un valor de
 
 ```
 A su vez, la conducción hacia delante y hacia atras del robot depende del giro del microbit ```controlador``` que hace las funciones de mando, es decir, su cambio en la velocidad con respecto al tiempo en el eje "Y". Para ello se utiliza el acelerómetro y se establecen una serie de condiciones para el rango óptimo determinado por el equipo de trabajo de ```500 mg``` (500 miligravedades es aprox 4.9 m/s2).
+
 
 ```py
 global x #se utiliza la variable x definida de forma global
@@ -53,6 +56,7 @@ global x #se utiliza la variable x definida de forma global
  ```
 
 Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha y AB que se detenga el robot. Se ha realizado la propuesta de un microbit controlador pensando en que, un manejo de control a distancia seria más conveniente que un robot autónomo para el caso de telepresencia, ya que permite ajustarse a las necesidades de quien lo maneja.
+
 
 <p align="center">
     <img src = /img/A.png>
@@ -77,6 +81,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 [![VIDEO ROBOT](img/vid1.PNG)](https://youtu.be/t_J4hAIU1Q8)
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha), pensando en una medida de control de seguridad para el robot. Esto se complementa con la propuesta de modelado 3D en el siguiente apartado, donde se incluye el modelado para dicho sensor.
+
 
 ```py
 #Detección de obstáculos, si hay un objeto cerca de 50 mm
