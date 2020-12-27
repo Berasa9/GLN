@@ -58,7 +58,7 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
     <img src = /img/B.png>
 </p>
 
-Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal como se observa en la siguiente tabla.
+Adicionalmente se incluyen luces, flechas y caras tanto para el controlador como en el robot en las distintas acciones propuestas, tal y como se observa en la siguiente tabla.
 
 | ID Acción | Acción       | Dirección     | Color led        | Descripción               |
 | :-------: |:------------:|:-------------:|:----------------:|:-------------------------:|
@@ -86,7 +86,7 @@ Se ha agregado el sensor de proximidad en la parte delantera del robot, con su r
         gigglebot.turn_millisec(gigglebotWhichTurnDirection.RIGHT, 1000) # y girar a la derecha
  ```
 
-También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo, por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por el ```controlador```.
+También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le de otra instrucción al tiempo; por ejemplo girar a la izquierda, ya que le daria prioridad a la instruccion enviada por el ```controlador```.
 
 
 
