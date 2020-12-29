@@ -100,7 +100,16 @@ También se ha programado la detección de líneas negras como indicador de fina
 
 ## 2. CAD y prototipado 3D
 
-Se ha modificado el diseño de dos componentes del robot, concretamente la parte trasera o ```"back"``` del robot y la parte delantera o ```"nose"```.
+Se ha modificado el diseño de dos componentes del robot; concretamente la parte trasera o ```"back"``` del robot y la parte delantera o ```"nose"```. 
+
+Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
+
+Como se ha mencionado anteriormente, el ```"back"``` se ha modificado para incluir la tarjeta microbit correspondiente al ```robot```.
+
+El diseño del ```"nose"``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
+
+
+
 ### Metrología con visión artificial
 ## 3. Programación de línea de packaging con Factory IO
 
