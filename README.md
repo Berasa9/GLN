@@ -110,6 +110,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
     <img src = /img/back_3.JPG>
 
 
+
 El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 <p align="center">
     <img src = /img/nose_1.JPG>
