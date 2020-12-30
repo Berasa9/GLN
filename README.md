@@ -105,7 +105,6 @@ Se ha modificado el diseño de dos componentes del robot; concretamente la parte
 <p align="center">
     <img src = /img/back_1.png>
    
-   
     <img src = /img/nose_1.JPG>
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
