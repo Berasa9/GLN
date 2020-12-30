@@ -107,15 +107,15 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
 
 <p align="center">
     <img src = /img/back_1.png>
-    <img src = /img/back_2.png>
-    <img src = /img/back_3.png>
+    <img src = /img/back_2.JPG>
+    <img src = /img/back_3.JPG>
 
 El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 
 <p align="center">
     <img src = /img/nose_1.png>
-    <img src = /img/nose_2.png>
-    <img src = /img/nose_4.png>
+    <img src = /img/nose_2.JPG>
+    <img src = /img/nose_4.JPG>
 
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
