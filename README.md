@@ -104,14 +104,13 @@ Se ha modificado el diseño de dos componentes del robot; concretamente
 robot y la parte delantera o ```nose```. 
 
 Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir la tarjeta microbit correspondiente al ```robot```.
-
 <p align="center">
     <img src = /img/back_1.png>
     <img src = /img/back_2.JPG>
     <img src = /img/back_3.JPG>
 
-El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 
+El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 <p align="center">
     <img src = /img/nose_1.JPG>
     <img src = /img/nose_2.JPG>
