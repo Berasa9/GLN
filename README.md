@@ -127,16 +127,20 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 ### Metrología con visión artificial
 ## 3. Programación de línea de packaging con Factory I/O
 
-[Factory I/O](https://factoryio.com/) es un programa de aprendizaje que permite que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. Tabién cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
+[Factory I/O](https://factoryio.com/) es un programa de aprendizaje que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. Tabién cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
 
-En este caso, se va a simular la programación mediante el controlador por bloques Control I/O de la escena "Sorting by height (Basic). El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
+En este caso se va a simular la programación mediante Control I/O, un controlados creado por Factory I/O que permite programar la lógica por bloques funcionales, de la escena "Sorting by height (Basic)". El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
+
+   **PONER VÍDEO DE FACTORY I/O
+
+A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
 
 ### Elementos del programa
 El programa consta de diferentes elementos para su uso. Estos elementos se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
-Los inputs, outputs y las memorias tienen cada uno un nombre y un número de pin.
+Los inputs, outputs y las memorias poseen un nombre y un número de pin que permite identificarlos.
 
 #### Inputs
-Los inputs son los elementos que se muestran en color verde en el esquema. Los sensores que encontramos en el programa son los siguientes:
+Los inputs son los elementos que se muestran en color verde en el esquema y representan los sensores instalados en el sistema. Los sensores que encontramos en el programa son los siguientes:
 * (5) High sensor: Sensor que detecta las cajas grandes 
 * (6) Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas
 * (7) Pallet sensor: Sensor que detecta los pallets
