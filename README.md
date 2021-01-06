@@ -127,7 +127,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 ### Metrología con visión artificial
 ## 3. Programación de línea de packaging con Factory I/O
 
-[Factory I/O]_(https://factoryio.com/) es un programa de aprendizaje que permite que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. Tabién cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
+[Factory I/O](https://factoryio.com/) es un programa de aprendizaje que permite que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. Tabién cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
 
 En este caso, se va a simular la programación mediante el controlador por bloques Control I/O de la escena "Sorting by height (Basic). El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
 
