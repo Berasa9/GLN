@@ -125,36 +125,41 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 
 
 ### Metrología con visión artificial
+
 ## 3. Programación de línea de packaging con Factory I/O
 
-Factory I/O es un programa de aprendizaje que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. Tabién cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
+Factory I/O es un programa de aprendizaje que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. También cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
 
-En este caso se va a simular la programación mediante Control I/O, un controlados creado por Factory I/O que permite programar la lógica por bloques funcionales, de la escena "Sorting by height (Basic)". El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
+En este caso se va a simular la programación de la escena "Sorting by height (Basic)" mediante Control I/O, un controlados creado por Factory I/O que permite programar la lógica por bloques funcionales. El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
 
 [![Sorting by heigh (Basic)](/img/VideoFactory.JPG)](https://youtu.be/ovqaNmYiTf4)
 
 A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
 
 ### Elementos del programa
-El programa consta de diferentes elementos para su uso. Estos elementos se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
-Los inputs, outputs y las memorias poseen un nombre y un número de pin que permite identificarlos.
+La programación en Control I/O se hace mediante bloques. Estos bloques se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
+Los inputs, outputs y las memorias poseen un nombre y dirección que permite identificarlos y posicionarlos en la memoria interna de Control I/O de tal manera que se puede configurar facilmente un diagrama con los elementos que forman la escena configurando las direcciones correctas para las entradas y salidas.
 
 #### Inputs
-Los inputs son los elementos que se muestran en color verde en el esquema y representan los sensores instalados en el sistema. Los sensores que encontramos en el programa son los siguientes:
-* (5) High sensor: Sensor que detecta las cajas grandes 
-* (6) Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas
-* (7) Pallet sensor: Sensor que detecta los pallets
+Los inputs son los bloques verdes que se emplean en el esquema y representan los sensores instalados en la escena. Los sensores que encontramos en el programa son los siguientes:
+* **(5)** High sensor: Sensor que detecta las cajas grandes 
+* **(6)** Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas
+* **(7)** Pallet sensor: Sensor que detecta los pallets
+* **(8)** At left entry:	 Detecta cuando una caja sale hacia la cinta izquierda
+* **(10)** At right exit: Detecta cuando una caja ha salido de la cinta derecha
+* **(11)** At left exit: Detecta cuando una caja ha salido de la cinta izquierda
+* **(12)** At right entry: Detecta cuando una caja sale hacia la cinta derecha
+* **(16)** Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia
 
-![Sensores de detección de altura](/img/1.png)
+#### Outputs
+Los output o actuadores son los elementos que accionarán un proceso cuando las condiciones especificadas se cumplan. En el diagrama, los actuadres están representados mediante bloques rojos y en este caso corresponden a los motores que mueven las cintas transportadoras y la unidad de transfererncia.
+•	(4) Conveyor entry: Acciona la cinta de entrada
+•	(0) Load: Acciona la unidad de transferencia para cargar las cajas en la misma.
+•	(2) Transf. Left: Envía las cajas desde la unidad de transferencia a la cinta de la izquierda.
+•	(3) Transf. Right: Envía las cajas desde la unidad de transferencia a la cinta de la derecha.
+•	(5) Conveyor left: Acciona la cinta de la izquierda.
+•	(6) Conveyor right: Acciona la cinta de la derecha.
 
-*	(8) At left entry:	 Detecta cuando una caja sale hacia la cinta izquierda
-*	(12) At right entry: Detecta cuando una caja sale hacia la cinta derecha
-*	(16) Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia
-
-![Sensores del transfer](/img/2.png)
-
-*	(11) At left exit: Detecta cuando una caja ha salido de la cinta izquierda
-*	(10) At right exit: Detecta cuando una caja ha salido de la cinta derecha
 
 ## 4. Visualización de los datos ambientales con Tableu 
 Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. 
