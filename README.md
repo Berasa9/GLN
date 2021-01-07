@@ -131,7 +131,7 @@ Factory I/O es un programa de aprendizaje que permite simular la programación d
 
 En este caso se va a simular la programación mediante Control I/O, un controlados creado por Factory I/O que permite programar la lógica por bloques funcionales, de la escena "Sorting by height (Basic)". El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
 
-[![Sorting by heigh (Basi)](img/1.jpg)](https://youtu.be/ovqaNmYiTf4)
+[![Sorting by heigh (Basic)](/img/VideoFactory.JPG)](https://youtu.be/ovqaNmYiTf4)
 
 A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
 
