@@ -142,23 +142,38 @@ Los inputs, outputs y las memorias poseen un nombre y dirección que permite ide
 
 #### Inputs
 Los inputs son los bloques verdes que se emplean en el esquema y representan los sensores instalados en la escena. Los sensores que encontramos en el programa son los siguientes:
-* **(5)** High sensor: Sensor que detecta las cajas grandes 
-* **(6)** Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas
-* **(7)** Pallet sensor: Sensor que detecta los pallets
-* **(8)** At left entry:	 Detecta cuando una caja sale hacia la cinta izquierda
-* **(10)** At right exit: Detecta cuando una caja ha salido de la cinta derecha
-* **(11)** At left exit: Detecta cuando una caja ha salido de la cinta izquierda
-* **(12)** At right entry: Detecta cuando una caja sale hacia la cinta derecha
-* **(16)** Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia
+* **(5)** High sensor: Sensor que detecta las cajas grandes.
+* **(6)** Low sensor: Este sensor detecta tanto las cajas grandes como las pequeñas.
+* **(7)** Pallet sensor: Sensor que detecta los pallets.
+* **(8)** At left entry: Detecta cuando una caja sale hacia la cinta izquierda.
+* **(10)** At right exit: Detecta cuando una caja ha salido de la cinta derecha.
+* **(11)** At left exit: Detecta cuando una caja ha salido de la cinta izquierda.
+* **(12)** At right entry: Detecta cuando una caja sale hacia la cinta derecha.
+* **(16)** Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia.
 
 #### Outputs
 Los output o actuadores son los elementos que accionarán un proceso cuando las condiciones especificadas se cumplan. En el diagrama, los actuadres están representados mediante bloques rojos y en este caso corresponden a los motores que mueven las cintas transportadoras y la unidad de transfererncia.
-•	(4) Conveyor entry: Acciona la cinta de entrada
-•	(0) Load: Acciona la unidad de transferencia para cargar las cajas en la misma.
-•	(2) Transf. Left: Envía las cajas desde la unidad de transferencia a la cinta de la izquierda.
-•	(3) Transf. Right: Envía las cajas desde la unidad de transferencia a la cinta de la derecha.
-•	(5) Conveyor left: Acciona la cinta de la izquierda.
-•	(6) Conveyor right: Acciona la cinta de la derecha.
+* **(0)** Load: Acciona la unidad de transferencia para cargar las cajas en la misma.
+* **(2)** Transf. Left: Envía las cajas desde la unidad de transferencia a la cinta de la izquierda.
+* **(3)** Transf. Right: Envía las cajas desde la unidad de transferencia a la cinta de la derecha.
+* **(4)** Conveyor entry: Acciona la cinta transportadora de entrada.
+* **(5)** Conveyor left: Acciona la cinta de la izquierda (cajas grandes).
+* **(6)** Conveyor right: Acciona la cinta de la derecha (cajas pequeñas).
+
+#### Memorias
+Las memorias son bloques que guardan valores durante la ejecución del programa. Son representados mediante bloques morados en el diagrama, y al contrario que los input y output que Control I/O detecta automáticamente los que se encuentran en la escena, las memorias hay que crearlas. En este caso las memorias creadas guardarán valores booleanos (Verdadero/Falso) y son los siguientes:
+* **(0)** Loading: Guardará un valor mientras que se esté cargando un pallet en la unidad de transferencia.
+* **(1)** Transfer busy: Memoria que guardará un valor siempre que haya una caja en el transfer.
+
+#### Bloques funcionales lógicos
+Los bloques funcionales describen una función entre las entradas y las salidas. Pueden ser de diferentes tipos pero en este proyecto se van a emplear los bloques funcionales lógicos. Conectando los bloques funcionales con las entradas, salidas y memorias se consigue programar la escena en el que cuando se cumplan las circunstancias necesarias, se iniciarán los procesos. Los bloque sfuncionales empleados son lso siguientes:
+* **AND2:**  Está compuesto de dos entradas y una salida. En el caso de que se cumplan las dos entradas, se dará la salida.
+* **OR2:** Está compuesto de dos entradas y una salida. Solo es necesario qeu se cumpla una de las entradas para que se de la salida.
+* **NOT:** Consta de una entrada y una salida, devuelve el valor contrario que entra en el bloque (True → False / False → True).
+* **SR:** Es una memoria con prioridad establecida. Consta de dos entradas (Set y Reset) y una salida. La salida se activará cuando se de entrada por el set y se desactivará cuando se de entrada por el reset.
+* **FTRIG:** Es un bloque con una entrada y una salida, dará la salida cuando detecte que la señal de la entrada pasa de Verdadero a Falso.
+* **RTRIG:** Es un bloque con una entrada y una salida, dará la salida cuando detecte que la señal de la entrada pasa de Falso a Verdadero.
+
 
 
 ## 4. Visualización de los datos ambientales con Tableu 
