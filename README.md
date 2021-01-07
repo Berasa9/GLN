@@ -131,7 +131,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 Factory I/O es un programa de aprendizaje que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. También cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
 
 En este caso se va a simular la programación de la escena "Sorting by height (Basic)" mediante Control I/O, un controlados creado por Factory I/O que permite programar la lógica por bloques funcionales. El proposito de esta escena, como se puede ver en el siguinete vídeo, es poder clasificar las cajas que llegan desde una cinta transportadora por su tamaño (grandes o pequeñas), y dependiendo del tamaño saldrán por una cinta transportadora u otra.
-
+<p align="center">
 [![Sorting by heigh (Basic)](/img/VideoFactory.JPG)](https://youtu.be/ovqaNmYiTf4)
 
 A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
