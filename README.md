@@ -170,11 +170,12 @@ Los bloques funcionales describen una función entre las entradas y las salidas.
 * **AND2:**  Está compuesto de dos entradas y una salida. En el caso de que se cumplan las dos entradas, se dará la salida.
 * **OR2:** Está compuesto de dos entradas y una salida. Solo es necesario qeu se cumpla una de las entradas para que se de la salida.
 * **NOT:** Consta de una entrada y una salida, devuelve el valor contrario que entra en el bloque (True → False / False → True).
-* **SR:** Es una memoria con prioridad establecida. Consta de dos entradas (Set y Reset) y una salida. La salida se activará cuando se de entrada por el set y se desactivará cuando se de entrada por el reset.
+* **SR:** Es una memoria con prioridad en set. Consta de dos entradas (Set y Reset) y una salida. La salida se activará cuando se de entrada por el set y se desactivará cuando se de entrada por el reset, en caso de que las dos entradas se den a la vez, tendrá prioridad el set.
 * **FTRIG:** Es un bloque con una entrada y una salida, dará la salida cuando detecte que la señal de la entrada pasa de Verdadero a Falso.
 * **RTRIG:** Es un bloque con una entrada y una salida, dará la salida cuando detecte que la señal de la entrada pasa de Falso a Verdadero.
 
-
+### Programación de la escena
+La programación de la escena se ha hecho por bloques ya que aunque las accioines que se realizan en la escena están relacionadas entre si por que algunas acciones se dan después de otras, los sucesos para que estas acciones ocurran son específicos para cada una de ellas.
 
 ## 4. Visualización de los datos ambientales con Tableu 
 Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. 
