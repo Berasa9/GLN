@@ -12,7 +12,7 @@ Desarrollado por:
 
 [1. Sensorización y control mediante programación en Python](https://github.com/Berasa9/GLN/blob/main/README.md#1-sensorizaci%C3%B3n-y-control-mediante-programaci%C3%B3n-en-python)
 
-[2. CAD y prototipado 3D](https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
+[2. Prototipado 3D y vision artificial](https://github.com/Berasa9/GLN/blob/main/README.md#2-cad-y-prototipado-3d)
 
 [3. Programación de línea de packaging con Factory IO](https://github.com/Berasa9/GLN/blob/main/README.md#3-programaci%C3%B3n-de-l%C3%ADnea-de-packaging-con-factory-io)
 
@@ -146,6 +146,11 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 
 Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/)
 
+<p align="center">
+    <img src = /img/vision1.PNG>
+    <img src = /img/vision2.PNG>
+ </p>
+
 ## 3. Programación de línea de packaging con Factory I/O
 
 Factory I/O es un programa de aprendizaje que permite simular la programación de los diferentes PLCs que existen en el mercado. El programa consta de diferentes escenas que recrean las apliaciones más comunes de los autómatas en la industria. También cuenta con la opción de crear escenas específicas empleando los diferentes elementos diponibles.
@@ -171,11 +176,6 @@ Los inputs son los bloques verdes que se emplean en el esquema y representan los
 * **(12)** At right entry: Detecta cuando una caja sale hacia la cinta derecha.
 * **(16)** Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia.
 
-<p align="center">
-    <img src = /img/sensores.PNG>
- </p>
-
-
 #### Outputs
 Los output o actuadores son los elementos que accionarán un proceso cuando las condiciones especificadas se cumplan. En el diagrama, los actuadres están representados mediante bloques rojos y en este caso corresponden a los motores que mueven las cintas transportadoras y la unidad de transfererncia.
 * **(0)** Load: Acciona la unidad de transferencia para cargar las cajas en la misma.
@@ -184,11 +184,6 @@ Los output o actuadores son los elementos que accionarán un proceso cuando las 
 * **(4)** Conveyor entry: Acciona la cinta transportadora de entrada.
 * **(5)** Conveyor left: Acciona la cinta de la izquierda (cajas grandes).
 * **(6)** Conveyor right: Acciona la cinta de la derecha (cajas pequeñas).
-
-<p align="center">
-    <img src = /img/actuadores.PNG>
- </p>
-
 
 #### Memorias
 Las memorias son bloques que guardan valores durante la ejecución del programa. Son representados mediante bloques morados en el diagrama, y al contrario que los input y output que Control I/O detecta automáticamente los que se encuentran en la escena, las memorias hay que crearlas. En este caso las memorias creadas guardarán valores booleanos (Verdadero/Falso) y son los siguientes:
