@@ -171,6 +171,11 @@ Los inputs son los bloques verdes que se emplean en el esquema y representan los
 * **(12)** At right entry: Detecta cuando una caja sale hacia la cinta derecha.
 * **(16)** Loaded: Detecta cuando un pallet está cargado correctamente en la unidad de transferencia.
 
+<p align="center">
+    <img src = /img/sensores.PNG>
+ </p>
+
+
 #### Outputs
 Los output o actuadores son los elementos que accionarán un proceso cuando las condiciones especificadas se cumplan. En el diagrama, los actuadres están representados mediante bloques rojos y en este caso corresponden a los motores que mueven las cintas transportadoras y la unidad de transfererncia.
 * **(0)** Load: Acciona la unidad de transferencia para cargar las cajas en la misma.
@@ -179,6 +184,11 @@ Los output o actuadores son los elementos que accionarán un proceso cuando las 
 * **(4)** Conveyor entry: Acciona la cinta transportadora de entrada.
 * **(5)** Conveyor left: Acciona la cinta de la izquierda (cajas grandes).
 * **(6)** Conveyor right: Acciona la cinta de la derecha (cajas pequeñas).
+
+<p align="center">
+    <img src = /img/actuadores.PNG>
+ </p>
+
 
 #### Memorias
 Las memorias son bloques que guardan valores durante la ejecución del programa. Son representados mediante bloques morados en el diagrama, y al contrario que los input y output que Control I/O detecta automáticamente los que se encuentran en la escena, las memorias hay que crearlas. En este caso las memorias creadas guardarán valores booleanos (Verdadero/Falso) y son los siguientes:
