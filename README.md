@@ -104,7 +104,7 @@ También se ha programado la detección de líneas negras como indicador de fina
  </p>
 
 
-
+[![Electronico](/img/diagramaelectronico.PNG)](https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
 
 ## 2. CAD y prototipado 3D
 
@@ -136,7 +136,6 @@ Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se 
     <img src = /img/prox.PNG>
 </p>
 
-[![proximidad](/img/prox.PNG)(https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
 
@@ -146,7 +145,8 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 
 ### Metrología con visión artificial
 
-Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/)
+Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/).
+Se he realizado modificaciones sobre las dimensiones de medida de objetos para que sea en milimetros (mm) y se ha 
 
 <p align="center">
     <img src = /img/vision.PNG>
