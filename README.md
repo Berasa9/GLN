@@ -99,6 +99,9 @@ Se ha agregado el sensor de proximidad en la parte delantera del robot, con su r
 
 También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le dé otra instrucción al tiempo; por ejemplo girar a la izquierda, ya que le daría prioridad a la instruccion enviada por el ```controlador```.
 
+<p align="center">
+    <img src = /img/diagramaelectronico.PNG>
+ </p>
 
 
 
