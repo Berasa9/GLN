@@ -120,7 +120,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
  
 Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha tecnia del multisensor.
     
-[![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
+[![multisensor](/img/multisensor.PNG)(https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
 El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad mencionado anteriomente, con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 
@@ -135,6 +135,8 @@ Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se 
 <p align="center">
     <img src = /img/prox.PNG>
 </p>
+
+[![proximidad](/img/prox.PNG)(https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
 
