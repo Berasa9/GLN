@@ -80,7 +80,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 
 [![VIDEO ROBOT](img/vid1.PNG)](https://youtu.be/t_J4hAIU1Q8)
 
-Se ha utilizado un multisensor que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico.}
+Se ha utilizado un multisensor que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico.
 
 <p align="center">
     <img src = /img/esq.png>
@@ -132,6 +132,8 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 
 
 ### Metrología con visión artificial
+
+Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/)
 
 ## 3. Programación de línea de packaging con Factory I/O
 
