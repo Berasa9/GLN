@@ -107,20 +107,31 @@ También se ha programado la detección de líneas negras como indicador de fina
 
 Se ha modificado el diseño de dos componentes del robot; concretamente la parte trasera robot o ```back``` y la parte delantera o ```nose```. 
 
-Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir el multisensor de CO2 del ```robot```, de acuerdo con las dimensiones de la ficha tecnia de la referencia.
+Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir el multisensor de CO2 del ```robot```.
+
 <p align="center">
     <img src = /img/back_1.png>
     <img src = /img/back_2.JPG>
     <img src = /img/back_3.JPG>
-
+ </p>
+ 
+Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha tecnia del multisensor.
+    
 [![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
 El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad mencionado anteriomente, con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
+
 <p align="center">
     <img src = /img/nose_1.JPG>
     <img src = /img/nose_2.JPG>
     <img src = /img/nose_4.JPG>
+</p>
 
+Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se visualizan en la siguiente ficha.
+
+<p align="center">
+    <img src = /img/prox.PNG>
+</p>
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
 
