@@ -147,8 +147,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/)
 
 <p align="center">
-    <img src = /img/vision1.PNG>
-    <img src = /img/vision2.PNG>
+    <img src = /img/vision.PNG>
  </p>
 
 ## 3. Programación de línea de packaging con Factory I/O
