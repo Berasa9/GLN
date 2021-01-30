@@ -78,7 +78,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 
 [![VIDEO ROBOT](img/vid1.PNG)](https://youtu.be/t_J4hAIU1Q8)
 
-Se ha utilizado un multisensor que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico.
+Se ha utilizado un multisensor "AmbiMate SENSOR MODULE MS4 Series" que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico. Para este proyecto se ha utilizado para la medición de CO2
 
 <p align="center">
     <img src = /img/esq.png>
@@ -105,18 +105,17 @@ También se ha programado la detección de líneas negras como indicador de fina
 
 ## 2. CAD y prototipado 3D
 
-Se ha modificado el diseño de dos componentes del robot; concretamente 
-robot y la parte delantera o ```nose```. 
+Se ha modificado el diseño de dos componentes del robot; concretamente la parte trasera robot o ```back``` y la parte delantera o ```nose```. 
 
-Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir la tarjeta microbit correspondiente al ```robot```.
+Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir el multisensor de CO2 del ```robot```, de acuerdo con las dimensiones de la ficha tecnia de la referencia.
 <p align="center">
     <img src = /img/back_1.png>
     <img src = /img/back_2.JPG>
     <img src = /img/back_3.JPG>
 
+[![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
-
-El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
+El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad mencionado anteriomente, con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 <p align="center">
     <img src = /img/nose_1.JPG>
     <img src = /img/nose_2.JPG>
