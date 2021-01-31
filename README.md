@@ -160,9 +160,10 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
     <img src = /img/euro.PNG>
     <img src = /img/carnet.PNG>
  </p>
+ >Este codigo se puede observar en la carpeta correspondiente del segundo apartado (CAD y prototipado 3D).
  
 En los resultados se observa, que las medidas coinciden con las dimensiones estándar de una txartela de un miembro del equipo. Para hacer la pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
-Este codigo se puede observar en la carpeta correspondiente del segundo apartado.
+
 
 
 ## 3. Programación de línea de packaging con Factory I/O
