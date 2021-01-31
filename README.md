@@ -239,7 +239,12 @@ Mientras que el sensor 7 detecte un pallet y la memoria 1 no esté llena, es dec
     <img src = /img/4.PNG>
 </p>
 
-Una vez que un pallet se haya cargado en la unidad de transferencia, su descarga se efectuará por un lado u otro dependiendo del tamaño como se ha comentado anteriormente.
+Una vez que un pallet se haya cargado en la unidad de transferencia, su descarga se efectuará por un lado u otro dependiendo del tamaño como se ha comentado anteriormente. El sistema diferencia las cajas grandes de las pequeñas en los sensores 5 y 6. El sensor 6 detectará todas las cajas, el sensor 5 en cambio solo detecta las cajas grandes. En el bloque "Sensor high" se hace la programación para diferenciar entre las cajas grandes y pequeñas, cuando una caja grande acaba de pasar por el sensor 5, la memoria 3 (High) cogerá un valor de True; esta memoria se vaciará cuando la caja salga por la cinta izquierda.
+
+**Salida por la izquierda de las cajas grandes:** Para que una caja grande salga por la cinta izquierda, se tienen que activar los actuadores 2 y 5. El primer actuador es el que saca la caja de la unidad de transferencia y el segundo es el que activa la cinta transportadora de la izquierda. Para que estos dos acuradores se acitven es necesario qeu las memorias High y Transfer Bussy tengan valor de Trie, o lo que es lo mismo, una caja grande esté cargada en la unidad de transferencia. El actuador 2 se desactivará cuando la caja salga del todo de la unidad de transferencia, el actuador 5 en cambio, se desactivará cuando la caja recorra toda la cinta de la izquierda y pase por el sensor 11 que indica que la caja sale del sistema.
+
+**Salida por la derecha de las cajas pequeñas**: El funcionamiento de la transferencia de las cajas pequeñas por la cinta de la derecha es muy similar a la de las cajas grandes con la única diferencia de que es necesario que no haya detectado una caja grande, o lo que es lo mismo, que la memoria 3 tenga un valor de False.
+
 
 ## 4. Visualización de los datos ambientales con Tableu 
 Mediante la plataforma Tableau se han visualizado varias gráficas relacionadas con datos de clima recogidos en Elgoibar durante los años 2016 y 2017. 
