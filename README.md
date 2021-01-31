@@ -139,9 +139,9 @@ Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. Este modelado se incluye en la carpeta de Cad y prototipado.
 
 <p align="center">
-    <img src = /img/Mando1.PNG width="200">
-    <img src = /img/Mando2.PNG width="200">
-    <img src = /img/Mando3.PNG width="200">
+    <img src = /img/Mando1.PNG heigth="200">
+    <img src = /img/Mando2.PNG heigth="200">
+    <img src = /img/Mando3.PNG heigth="200">
  </p>
 
 
