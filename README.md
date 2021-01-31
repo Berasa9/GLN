@@ -140,8 +140,8 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 
 <p align="center">
     <img src = /img/Mando1.PNG width="200">
-    <img src = /img/Mando2.PNG width="180">
-    <img src = /img/Mando3.PNG width="160">
+    <img src = /img/Mando2.PNG width="185">
+    <img src = /img/Mando3.PNG width="150">
  </p>
 
 
