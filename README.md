@@ -57,9 +57,9 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
 
 
 <p align="center">
-    <img src = /img/A.png width="200">
-    <img src = /img/AB.png width="200">
-    <img src = /img/B.png width="200">
+    <img src = /img/A.png width="150">
+    <img src = /img/AB.png width="150">
+    <img src = /img/B.png width="150">
 </p>
 
 Adicionalmente se muestran luces, flechas y caras tanto en la pantalla del controlador como en el robot segun las distintas acciones propuestas, tal y como se observa en la siguiente tabla.
@@ -81,7 +81,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 Se ha utilizado un multisensor "AmbiMate SENSOR MODULE MS4 Series" que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico. Para este proyecto se ha utilizado para la medición de CO2
 
 <p align="center">
-    <img src = /img/esq.png width="300">
+    <img src = /img/esq.png width="500">
 </p>
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot, y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha), pensando en una medida de control de seguridad para el robot. Esto se complementa con la propuesta de modelado 3D del siguiente apartado, donde se incluye la cavidad para dicho sensor.
