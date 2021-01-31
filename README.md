@@ -117,7 +117,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
     <img src = /img/back_3.JPG>
  </p>
  
-Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha técnica del multisensor.
+Estas modificaciones se han realizado según las dimensiones de la ficha técnica del multisensor.
     
 [![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
@@ -129,7 +129,7 @@ El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el s
     <img src = /img/nose_4.JPG>
 </p>
 
-Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se visualizan en la siguiente ficha.
+Las dimensiones del sensor de proximidad se han registrado por el equipo, y se visualizan en la siguiente ficha.
 
 <p align="center">
     <img src = /img/prox.PNG>
@@ -141,7 +141,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 <p align="center">
     <img src = /img/Mando1.PNG width="200">
     <img src = /img/Mando2.PNG width="185">
-    <img src = /img/Mando3.PNG width="149">
+    <img src = /img/Mando3.PNG width="150">
  </p>
 
 
@@ -170,9 +170,8 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
 En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
 
 <p align="center">
-    <img src = /img/hermione1.PNG width="250">
-    <img src = /img/hermione2.PNG width="250">
-    <img src = /img/hermione3.PNG width="250">
+    <img src = /img/hermione1.PNG>
+    <img src = /img/hermione2.PNG>
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
