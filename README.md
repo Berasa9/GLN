@@ -99,9 +99,11 @@ Se ha agregado el sensor de proximidad en la parte delantera del robot, con su r
 
 También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le dé otra instrucción al tiempo; por ejemplo girar a la izquierda, ya que le daría prioridad a la instruccion enviada por el ```controlador```.
 
-Finalmente, se representa la conexión del microbit con el sensor de proximidad por ultrasonido mediante el siguiente diagrama electronico simulado en Tinkercad, se ha conectado una bateria de 9V como fuente de alimentación para el sensor, pero debido a que el sensor ultrasonico solo recibe 5V, se utilizó un regulador de potencia y se verifica este valor con un multimetro. El trig del sensor (pin de entrada) se ha conectado al pin 0 del microbit, y el echo (pin de salida) al pin 1 del microbit.
+Finalmente, se representa la conexión del microbit con el sensor de proximidad por ultrasonido, mediante el siguiente diagrama electronico simulado en Tinkercad. Se ha conectado una bateria de 9V como fuente de alimentación para el sensor, pero debido a que el sensor ultrasonico solo recibe 5V, se utilizó un regulador de potencia y se verifica este valor con un multimetro. 
 
 [![Electronico](/img/diagramaelectronico.PNG)](https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
+
+>El trig del sensor (pin de entrada) se ha conectado al pin 0 del microbit, y el echo (pin de salida) al pin 1 del microbit.
 
 ## 2. CAD y prototipado 3D
 
@@ -150,7 +152,9 @@ Se han realizado modificaciones sobre las dimensiones de medida de objetos para 
     <img src = /img/vision.PNG>
  </p>
 
-De este codigo es preciso destacar, que siempre tiene que haber un objeto que dé referencia a las medidas, en este caso una moneda de 1 euro, la cual mide teoricamente 23.3 mm, y siempre se debe colocar a la izquierda en la imagen. Se evidencia cierta desviación con los demas objetos colocados en la imagen, como el sensor de distancia y el multisensor, la cual se explica porque la imagen diseñada no es fiel copia del original. Por lo que, se optó por hacer otra prueba con una fotografia casera, a falta de no poder fotografiar al robot real.
+>De este codigo es preciso destacar, que siempre tiene que haber un objeto que dé referencia a las medidas, en este caso una moneda de 1 euro, la cual mide teoricamente 23.3 mm, y siempre se debe colocar a la izquierda en la imagen. 
+
+Se evidencia cierta desviación con los demas objetos colocados en la imagen, como el sensor de distancia y el multisensor, la cual se explica porque la imagen diseñada no es fiel copia del original. Por lo que, se optó por hacer otra prueba con una fotografia casera, a falta de no poder fotografiar al robot real.
 
 <p align="center">
     <img src = /img/euro.PNG>
