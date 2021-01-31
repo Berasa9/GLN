@@ -99,7 +99,7 @@ Se ha agregado el sensor de proximidad en la parte delantera del robot, con su r
 
 También se ha programado la detección de líneas negras como indicador de finalización de un camino, por tanto el robot se detiene siempre y cuando no se le dé otra instrucción al tiempo; por ejemplo girar a la izquierda, ya que le daría prioridad a la instruccion enviada por el ```controlador```.
 
-Finalmente, se representa la conexión del microbit con el sensor de proximidad por ultrasonido, mediante el siguiente diagrama electronico simulado en Tinkercad. Se ha conectado una bateria de 9V como fuente de alimentación para el sensor, pero debido a que el sensor ultrasonico solo recibe 5V, se utilizó un regulador de potencia y se verifica este valor con un multimetro. 
+Finalmente, se representa la conexión del microbit con el sensor de proximidad por ultrasonido, mediante el siguiente diagrama electrónico simulado en Tinkercad. Se ha conectado una bateria de 9V como fuente de alimentación para el sensor, pero debido a que el sensor ultrasónico solo recibe 5V, se utilizó un regulador de potencia y se verifica este valor con un multímetro. 
 
 [![Electronico](/img/diagramaelectronico.PNG)](https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
 
@@ -216,7 +216,7 @@ Las memorias son bloques que guardan valores durante la ejecución del programa.
 * **(3)** High: Memoria que guardará un valor siempre que una caja grande sea detectada, y borrará el valor cuando la caja salga por la cinta izquierda.
 
 #### Bloques funcionales lógicos
-Los [bloques funcionales](https://docs.factoryio.com/controlio/function-blocks/logical/) describen una función entre las entradas y las salidas. Pueden ser de diferentes tipos pero en este proyecto se van a emplear los bloques funcionales lógicos. Conectando los bloques funcionales con las entradas, salidas y memorias se consigue programar la escena en el que cuando se cumplan las circunstancias necesarias, se iniciarán los procesos. Los bloque sfuncionales empleados son lso siguientes:
+Los [bloques funcionales](https://docs.factoryio.com/controlio/function-blocks/logical/) describen una función entre las entradas y las salidas. Pueden ser de diferentes tipos pero en este proyecto se van a emplear los bloques funcionales lógicos. Conectando los bloques funcionales con las entradas, salidas y memorias se consigue programar la escena en el que cuando se cumplan las circunstancias necesarias, se iniciarán los procesos. Los bloques funcionales empleados son los siguientes:
 * **AND2:**  Está compuesto de dos entradas y una salida. En el caso de que se cumplan las dos entradas, se dará la salida.
 * **OR2:** Está compuesto de dos entradas y una salida. Solo es necesario qeu se cumpla una de las entradas para que se de la salida.
 * **NOT:** Consta de una entrada y una salida, devuelve el valor contrario que entra en el bloque (True → False / False → True).
@@ -225,7 +225,7 @@ Los [bloques funcionales](https://docs.factoryio.com/controlio/function-blocks/l
 * **RTRIG:** Es un bloque con una entrada y una salida, dará la salida cuando detecte que la señal de la entrada pasa de Falso a Verdadero.
 
 ### Programación de la escena
-La programación de la escena se ha hecho por bloques ya que aunque las accioines que se realizan en la escena están relacionadas entre si por que algunas acciones se dan después de otras, los sucesos para que estas acciones ocurran son específicos para cada una de ellas. La explicación se va a dar en dos partes, la primera sobre la entrada de las cajas por el transportador de entrada hasta que se carga en el modulo de transferencia; la segunda parte sobre la descarga de las cajas hacia una cinta u otra dependiendo de su tamaño.
+La programación de la escena se ha hecho por bloques, ya que aunque las acciones que se realizan en la escena están relacionadas entre sí, algunas acciones se dan después de otras, los sucesos para que estas acciones ocurran son específicos para cada una de ellas. La explicación se va a dar en dos partes, la primera sobre la entrada de las cajas por el transportador de entrada hasta que se carga en el modulo de transferencia; la segunda parte sobre la descarga de las cajas hacia una cinta u otra dependiendo de su tamaño.
 
 <p align="center">
     <img src = /img/3.PNG>
@@ -233,7 +233,7 @@ La programación de la escena se ha hecho por bloques ya que aunque las accioine
 
 Mientras que el sensor 7, el detector de pallets, no esté detectando un pallet o la memoria 0 tenga un valor (esta memoria estará activa cuando una caja se está cargando en el transfer), la cinta de entrada (4) estará activa. O lo que es lo mismo, la cinta estará siempre activa y se detendrá solo cuando una caja se esté cargando en la unidad de transferencia; la carga de una caja empieza cuando es detectada por el sensor 7 y termina cuando es detectada por el sensor 16.
 
-Mientras que el sensor 7 detecte un pallet y la memoria 1 no esté llena, es decir minetras que no haya otro pallet en la unidad de transferencia, la unidad de transferencia (actuador 0) estará en marcha y la memoria 0 (Loading) obtendrá un valor de 1 (True). Este acuador se detendrá cuando el sensor 16, Loaded, pase a tener un valor de 1. Esta última accioón será la que haga que la memoria 1, Transfer Bussy, pase a tener un valor de True indicando que la unidad de transferencia está ocupada. La memoria 1 se vaciará cuando la caja salga por una de las dos cintas laterales.
+Mientras que el sensor 7 detecte un pallet y la memoria 1 no esté llena, es decir mientras que no haya otro pallet en la unidad de transferencia, la unidad de transferencia (actuador 0) estará en marcha y la memoria 0 (Loading) obtendrá un valor de 1 (True). Este acuador se detendrá cuando el sensor 16, Loaded, pase a tener un valor de 1. Esta última accioón será la que haga que la memoria 1, Transfer Bussy, pase a tener un valor de True indicando que la unidad de transferencia está ocupada. La memoria 1 se vaciará cuando la caja salga por una de las dos cintas laterales.
 
 <p align="center">
     <img src = /img/4.PNG>
@@ -241,7 +241,7 @@ Mientras que el sensor 7 detecte un pallet y la memoria 1 no esté llena, es dec
 
 Una vez que un pallet se haya cargado en la unidad de transferencia, su descarga se efectuará por un lado u otro dependiendo del tamaño como se ha comentado anteriormente. El sistema diferencia las cajas grandes de las pequeñas en los sensores 5 y 6. El sensor 6 detectará todas las cajas, el sensor 5 en cambio solo detecta las cajas grandes. En el bloque "Sensor high" se hace la programación para diferenciar entre las cajas grandes y pequeñas, cuando una caja grande acaba de pasar por el sensor 5, la memoria 3 (High) cogerá un valor de True; esta memoria se vaciará cuando la caja salga por la cinta izquierda.
 
-**Salida por la izquierda de las cajas grandes:** Para que una caja grande salga por la cinta izquierda, se tienen que activar los actuadores 2 y 5. El primer actuador es el que saca la caja de la unidad de transferencia y el segundo es el que activa la cinta transportadora de la izquierda. Para que estos dos acuradores se acitven es necesario qeu las memorias High y Transfer Bussy tengan valor de Trie, o lo que es lo mismo, una caja grande esté cargada en la unidad de transferencia. El actuador 2 se desactivará cuando la caja salga del todo de la unidad de transferencia, el actuador 5 en cambio, se desactivará cuando la caja recorra toda la cinta de la izquierda y pase por el sensor 11 que indica que la caja sale del sistema.
+**Salida por la izquierda de las cajas grandes:** Para que una caja grande salga por la cinta izquierda, se tienen que activar los actuadores 2 y 5. El primer actuador es el que saca la caja de la unidad de transferencia y el segundo es el que activa la cinta transportadora de la izquierda. Para que estos dos acuradores se acitven es necesario qeu las memorias High y Transfer Bussy tengan valor de True, o lo que es lo mismo, una caja grande esté cargada en la unidad de transferencia. El actuador 2 se desactivará cuando la caja salga del todo de la unidad de transferencia, el actuador 5 en cambio, se desactivará cuando la caja recorra toda la cinta de la izquierda y pase por el sensor 11 que indica que la caja sale del sistema.
 
 **Salida por la derecha de las cajas pequeñas**: El funcionamiento de la transferencia de las cajas pequeñas por la cinta de la derecha es muy similar a la de las cajas grandes con la única diferencia de que es necesario que no haya detectado una caja grande, o lo que es lo mismo, que la memoria 3 tenga un valor de False.
 
