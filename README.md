@@ -57,9 +57,9 @@ Por otra parte, la letra A indica movimiento a la izquierda, B hacia la derecha 
 
 
 <p align="center">
-    <img src = /img/A.png>
-    <img src = /img/AB.png>
-    <img src = /img/B.png>
+    <img src = /img/A.png width="200">
+    <img src = /img/AB.png width="200">
+    <img src = /img/B.png width="200">
 </p>
 
 Adicionalmente se muestran luces, flechas y caras tanto en la pantalla del controlador como en el robot segun las distintas acciones propuestas, tal y como se observa en la siguiente tabla.
@@ -81,7 +81,7 @@ El siguiente video muestra el manejo remoto con el microbit controlador del robo
 Se ha utilizado un multisensor "AmbiMate SENSOR MODULE MS4 Series" que mide Temperatura, Humedad ambiente, eCO2, VOCs en el aire, Ruido, Movimiento (PIR) e Iluminación, y se ha conectado a un Particle Argon IoT para la conexión Wi-Fi, tal como se observa en el siguiente esquema electrónico. Para este proyecto se ha utilizado para la medición de CO2
 
 <p align="center">
-    <img src = /img/esq.png>
+    <img src = /img/esq.png width="300">
 </p>
 
 Se ha agregado el sensor de proximidad en la parte delantera del robot, con su respectivo código para la detección de objetos que pueden ser un obstáculo para el robot, y funciones para esquilarlos (deternerse, esperar un seg y girar hacia la derecha), pensando en una medida de control de seguridad para el robot. Esto se complementa con la propuesta de modelado 3D del siguiente apartado, donde se incluye la cavidad para dicho sensor.
@@ -117,7 +117,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
     <img src = /img/back_3.JPG>
  </p>
  
-Estas modificaciones se han realizado según las dimensiones de la ficha técnica del multisensor.
+Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha técnica del multisensor.
     
 [![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
@@ -129,7 +129,7 @@ El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el s
     <img src = /img/nose_4.JPG>
 </p>
 
-Las dimensiones del sensor de proximidad se han registrado por el equipo, y se visualizan en la siguiente ficha.
+Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se visualizan en la siguiente ficha.
 
 <p align="center">
     <img src = /img/prox.PNG>
@@ -141,7 +141,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 <p align="center">
     <img src = /img/Mando1.PNG width="200">
     <img src = /img/Mando2.PNG width="185">
-    <img src = /img/Mando3.PNG width="150">
+    <img src = /img/Mando3.PNG width="149">
  </p>
 
 
@@ -170,8 +170,9 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
 En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
 
 <p align="center">
-    <img src = /img/hermione1.PNG>
-    <img src = /img/hermione2.PNG>
+    <img src = /img/hermione1.PNG width="250">
+    <img src = /img/hermione2.PNG width="250">
+    <img src = /img/hermione3.PNG width="250">
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
