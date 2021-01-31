@@ -141,7 +141,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 <p align="center">
     <img src = /img/Mando1.PNG width="200">
     <img src = /img/Mando2.PNG width="185">
-    <img src = /img/Mando3.PNG width="145">
+    <img src = /img/Mando3.PNG width="149">
  </p>
 
 
@@ -170,9 +170,9 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
 En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
 
 <p align="center">
-    <img src = /img/hermione1.PNG width="200">
-    <img src = /img/hermione2.PNG width="200">
-    <img src = /img/hermione3.PNG width="200">
+    <img src = /img/hermione1.PNG width="250">
+    <img src = /img/hermione2.PNG width="250">
+    <img src = /img/hermione3.PNG width="250">
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
