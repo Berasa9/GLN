@@ -117,7 +117,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
     <img src = /img/back_3.JPG>
  </p>
  
-Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha tecnia del multisensor.
+Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha técnica del multisensor.
     
 [![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
@@ -138,7 +138,11 @@ Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se 
 
 Además, teniendo en cuenta el sistema de control del robot mediante el ```controlador``` , es decir, un microbit controlador haciendo la función de mando; se ha decidido diseñar uno para una mejor conducción. 
 
-
+<p align="center">
+    <img src = /img/mando1.png>
+    <img src = /img/mando2.JPG>
+    <img src = /img/mando3.JPG>
+ </p>
 
 
 
