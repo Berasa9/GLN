@@ -163,7 +163,15 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
  
  >Este codigo se puede observar en la carpeta correspondiente del segundo apartado (CAD y prototipado 3D).
  
-En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
+En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
+
+<p align="center">
+    <img src = /img/hermione1.PNG>
+    <img src = /img/hermione2.PNG>
+    <img src = /img/hermione3.PNG>
+ </p>
+ 
+Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
 
 
 
