@@ -101,11 +101,6 @@ También se ha programado la detección de líneas negras como indicador de fina
 
 Finalmente, se representa la conexión del microbit con el sensor de proximidad por ultrasonido mediante el siguiente diagrama electronico simulado en Tinkercad, se ha conectado una bateria de 9V como fuente de alimentación para el sensor, pero debido a que el sensor ultrasonico solo recibe 5V, se utilizó un regulador de potencia y se verifica este valor con un multimetro. El trig del sensor (pin de entrada) se ha conectado al pin 0 del microbit, y el echo (pin de salida) al pin 1 del microbit.
 
-<p align="center">
-    <img src = /img/diagramaelectronico1.PNG>
- </p>
-
-
 [![Electronico](/img/diagramaelectronico.PNG)](https://www.tinkercad.com/things/48JlmSCXk03-epic-jaagub-juttuli/editel?sharecode=9PZe2WOwlkN7UH4FZHkPvTuMRz5hZai0sohifCabsPg)
 
 ## 2. CAD y prototipado 3D
