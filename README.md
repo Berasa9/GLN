@@ -168,7 +168,6 @@ En los resultados se observa que las medidas coinciden con las dimensiones está
 <p align="center">
     <img src = /img/hermione1.PNG>
     <img src = /img/hermione2.PNG>
-    <img src = /img/hermione3.PNG>
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
