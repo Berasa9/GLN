@@ -144,7 +144,7 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
     <img src = /img/Mando3.PNG width="149">
  </p>
 
-
+Este mando se diseñó teniendo en cuenta las dimensiones del microbit, e incluyendo una abertura para la batería. El diseño fue inspirado en el mando de la Nintendo Switch.
 
 ### Metrología con visión artificial
 
