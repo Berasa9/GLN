@@ -161,8 +161,8 @@ Se han realizado modificaciones sobre las dimensiones de medida de objetos para 
 Se evidencia cierta desviación con los demas objetos colocados en la imagen, como el sensor de distancia y el multisensor, la cual se explica porque la imagen diseñada no es fiel copia del original. Por lo que, se optó por hacer otra prueba con una fotografia casera, a falta de no poder fotografiar al robot real.
 
 <p align="center">
-    <img src = /img/euro.PNG>
-    <img src = /img/carnet.PNG>
+    <img src = /img/euro.PNG width="400">
+    <img src = /img/carnet.PNG width="400">
  </p>
  
  >Este codigo se puede observar en la carpeta correspondiente del segundo apartado (CAD y prototipado 3D).
@@ -170,9 +170,9 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
 En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
 
 <p align="center">
-    <img src = /img/hermione1.PNG width="250">
-    <img src = /img/hermione2.PNG width="250">
-    <img src = /img/hermione3.PNG width="250">
+    <img src = /img/hermione1.PNG width="300">
+    <img src = /img/hermione2.PNG width="300">
+    <img src = /img/hermione3.PNG width="300">
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
