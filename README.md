@@ -158,10 +158,12 @@ Se han realizado modificaciones sobre las dimensiones de medida de objetos para 
 De este codigo es preciso destacar, que siempre tiene que haber un objeto que dé referencia a las medidas, en este caso una moneda de 1 euro, la cual mide teoricamente 23.3 mm, y siempre se debe colocar a la izquierda en la imagen. Se evidencia cierta desviación con los demas objetos colocados en la imagen, como el sensor de distancia y el multisensor, la cual se explica porque la imagen diseñada no es fiel copia del original. Por lo que, se optó por hacer otra prueba con una fotografia casera, a falta de no poder fotografiar al robot real.
 
 <p align="center">
-    <img src = /img/carnet.PNGg>
+    <img src = /img/euro.PNG>
+    <img src = /img/carnet.PNG>
  </p>
  
-En los resultados se observa, que las medidas coinciden con las dimensiones estándar de una txartela de un miembro del equipo. Este codigo se puede observar en la carpeta correspondiente del segundo apartado.
+En los resultados se observa, que las medidas coinciden con las dimensiones estándar de una txartela de un miembro del equipo. Para hacer la pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
+Este codigo se puede observar en la carpeta correspondiente del segundo apartado.
 
 
 ## 3. Programación de línea de packaging con Factory I/O
