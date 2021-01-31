@@ -178,7 +178,7 @@ En este caso se va a simular la programación de la escena "Sorting by height (B
 A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
 
 ### Elementos del programa
-La programación en Control I/O se hace mediante bloques. Estos bloques se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
+La programación en [Control I/O](https://docs.factoryio.com/controlio/block-types/) se hace mediante bloques. Estos bloques se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
 Los inputs, outputs y las memorias poseen un nombre y dirección que permite identificarlos y posicionarlos en la memoria interna de Control I/O de tal manera que se puede configurar facilmente un diagrama con los elementos que forman la escena configurando las direcciones correctas para las entradas y salidas.
 
 #### Inputs
@@ -216,7 +216,7 @@ Las memorias son bloques que guardan valores durante la ejecución del programa.
 * **(3)** High: Memoria que guardará un valor siempre que una caja grande sea detectada, y borrará el valor cuando la caja salga por la cinta izquierda.
 
 #### Bloques funcionales lógicos
-Los bloques funcionales describen una función entre las entradas y las salidas. Pueden ser de diferentes tipos pero en este proyecto se van a emplear los bloques funcionales lógicos. Conectando los bloques funcionales con las entradas, salidas y memorias se consigue programar la escena en el que cuando se cumplan las circunstancias necesarias, se iniciarán los procesos. Los bloque sfuncionales empleados son lso siguientes:
+Los [bloques funcionales](https://docs.factoryio.com/controlio/function-blocks/logical/) describen una función entre las entradas y las salidas. Pueden ser de diferentes tipos pero en este proyecto se van a emplear los bloques funcionales lógicos. Conectando los bloques funcionales con las entradas, salidas y memorias se consigue programar la escena en el que cuando se cumplan las circunstancias necesarias, se iniciarán los procesos. Los bloque sfuncionales empleados son lso siguientes:
 * **AND2:**  Está compuesto de dos entradas y una salida. En el caso de que se cumplan las dos entradas, se dará la salida.
 * **OR2:** Está compuesto de dos entradas y una salida. Solo es necesario qeu se cumpla una de las entradas para que se de la salida.
 * **NOT:** Consta de una entrada y una salida, devuelve el valor contrario que entra en el bloque (True → False / False → True).
