@@ -178,7 +178,7 @@ En este caso se va a simular la programación de la escena "Sorting by height (B
 A continuación se analizará y explicarán los elementos y la lógica usada para la automatización del sistema de clasificación.
 
 ### Elementos del programa
-La programación en [Control I/O](https://docs.factoryio.com/controlio/block-types/) se hace mediante bloques. Estos bloques se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
+La programación en Control I/O se hace mediante [bloques](https://docs.factoryio.com/controlio/block-types/). Estos bloques se clasifican entre sensores (input), actuadores (output), memorias y bloques funcionales lógicos.
 Los inputs, outputs y las memorias poseen un nombre y dirección que permite identificarlos y posicionarlos en la memoria interna de Control I/O de tal manera que se puede configurar facilmente un diagrama con los elementos que forman la escena configurando las direcciones correctas para las entradas y salidas.
 
 #### Inputs
