@@ -120,7 +120,7 @@ Como se ha mencionado anteriormente, el ```back``` se ha modificado para incluir
  
 Estas modificaciones se realizaron de acuerdo con las dimensiones de la ficha tecnia del multisensor.
     
-[![multisensor](/img/multisensor.PNG)(https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
+[![multisensor](/img/multisensor.PNG)](https://drive.google.com/file/d/1Mn-5Xggu-4ZenU1rsUKPCAtozrPfKyLX/view?usp=sharing)
 
 El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el sensor de proximidad mencionado anteriomente, con el objetivo de poder detectar obstáculos y evitarlos para proteger el robot.
 
@@ -146,11 +146,14 @@ Además, teniendo en cuenta el sistema de control del robot mediante el ```contr
 ### Metrología con visión artificial
 
 Para este apartado se ha tomado como base el código de detección de dimensiones de objetos del proyecto [Measuring size of objects in an image with OpenCV](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) de [PyImageSearch](https://www.pyimagesearch.com/).
-Se he realizado modificaciones sobre las dimensiones de medida de objetos para que sea en milimetros (mm) y se ha 
+
+Se han realizado modificaciones sobre las dimensiones de medida de objetos para que sea en milimetros (mm) y se diseño una imagen de prueba para la captura de medidas, donde se obtuvieron los siguientes resultados.
 
 <p align="center">
     <img src = /img/vision.PNG>
  </p>
+
+Se evidencia scierta dest
 
 ## 3. Programación de línea de packaging con Factory I/O
 
