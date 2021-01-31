@@ -132,7 +132,7 @@ El diseño del ```nose``` se ha llevado a cabo con el propósito de incluir el s
 Las dimensiones del sensor de proximidad fueron registradas por el equipo, y se visualizan en la siguiente ficha.
 
 <p align="center">
-    <img src = /img/prox.PNG>
+    <img src = /img/prox.PNG width="400">
 </p>
 
 
@@ -153,7 +153,7 @@ Para este apartado se ha tomado como base el código de detección de dimensione
 Se han realizado modificaciones sobre las dimensiones de medida de objetos para que sea en milimetros (mm) y se diseño una imagen de prueba para la captura de medidas, donde se obtuvieron los siguientes resultados.
 
 <p align="center">
-    <img src = /img/vision.PNG>
+    <img src = /img/vision.PNG width="500">
  </p>
 
 >De este codigo es preciso destacar, que siempre tiene que haber un objeto que dé referencia a las medidas, en este caso una moneda de 1 euro, la cual mide teoricamente 23.3 mm, y siempre se debe colocar a la izquierda en la imagen. 
@@ -161,8 +161,8 @@ Se han realizado modificaciones sobre las dimensiones de medida de objetos para 
 Se evidencia cierta desviación con los demas objetos colocados en la imagen, como el sensor de distancia y el multisensor, la cual se explica porque la imagen diseñada no es fiel copia del original. Por lo que, se optó por hacer otra prueba con una fotografia casera, a falta de no poder fotografiar al robot real.
 
 <p align="center">
-    <img src = /img/euro.PNG width="400">
-    <img src = /img/carnet.PNG width="400">
+    <img src = /img/euro.PNG width="300">
+    <img src = /img/carnet.PNG width="300">
  </p>
  
  >Este codigo se puede observar en la carpeta correspondiente del segundo apartado (CAD y prototipado 3D).
@@ -170,9 +170,9 @@ Se evidencia cierta desviación con los demas objetos colocados en la imagen, co
 En los resultados se observa que las medidas coinciden con las dimensiones estándar de una txartela, la cual corresponde a una tarjeta de estudiante de la UPV de un miembro del equipo. Tambien se hizo otra prueba con una ficha lego, y se observa que reconoce las distintas piezas que la compone y sus dimensiones.
 
 <p align="center">
-    <img src = /img/hermione1.PNG width="300">
-    <img src = /img/hermione2.PNG width="300">
-    <img src = /img/hermione3.PNG width="300">
+    <img src = /img/hermione1.PNG width="250">
+    <img src = /img/hermione2.PNG width="250">
+    <img src = /img/hermione3.PNG width="250">
  </p>
  
 Para hacer estas pruebas, se ha utilizado el IDE de [Google Colab](https://colab.research.google.com/drive/122NMgJv9MHH9owzYf5lsp3I9W-AtJ67G?usp=sharing), utilizando un GPU gratuita de Google como entorno de ejecución, para disminuir el tiempo de procesamiento. 
